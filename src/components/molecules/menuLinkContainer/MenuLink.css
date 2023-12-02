@@ -1,0 +1,14 @@
+.navbar__menuLinkContainer {
+  padding: 0.625rem; }
+
+.navbar__menuLinkTextContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 0.625rem;
+  justify-content: center;
+  align-items: center; }
+
+.navbar__menuLinkText {
+  color: var(--text); }
+  .navbar__menuLinkText:hover {
+    color: var(--primary); }

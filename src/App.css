@@ -1,0 +1,96 @@
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit; }
+
+p a {
+  display: inline; }
+
+li {
+  list-style-type: none; }
+
+h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, b, u, em {
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: none;
+  color: inherit; }
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  vertical-align: baseline; }
+
+form, input, textarea, select, button, label {
+  font-family: inherit;
+  font-size: inherit;
+  hyphens: auto;
+  background-color: transparent;
+  color: inherit;
+  display: block; }
+
+body {
+  background-color: var(--blackTheme);
+  min-height: 100vh;
+  font-size: var(--defaultSize);
+  font-family: var(--mainType);
+  font-weight: 400; }
+
+/* Define here the Custom properties */
+:root {
+  /*Main*/
+  --bg: #131615;
+  --primary: #EDC63B;
+  --secondary: #CB7F15;
+  /*Complement*/
+  --text: #FEFBEC;
+  --accent: #FAF4CB;
+  /*Neutral*/
+  --blackTheme: #222222;
+  --whiteTheme: #ececec;
+  --shadowMain: #c9c9c9;
+  --shadowSec: #ffffff;
+  --blackborder: #00000050;
+  /* Tipography*/
+  --mainType: 'Raleway';
+  --secondaryType: 'Oswald'; }
+
+@font-face {
+  font-family: 'Oswald';
+  src: url("/public/assets/fonts/Oswald/Oswald-Bold.ttf") format("truetype");
+  font-weight: 700; }
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("/public/assets/fonts/Raleway/Raleway-Bold.ttf") format("truetype"); }
+
+/*Dark theme
+@media (prefers-color-scheme: dark) {
+  :root{
+    --blackTheme    : #ececec;
+    --whiteTheme    : #303030;
+    --shadowMain    : #242424;
+    --sahdowSec     : #3c3c3c;
+    
+    --blackBorder   : #FFFFFF50;
+  }
+};
+*/
+.title--xl {
+  font-family: var(--secondaryType);
+  font-size: 3rem;
+  font-style: normal;
+  line-height: 1.5rem;
+  /* 50% */
+  letter-spacing: 0.0125rem; }
+
+.text--m {
+  font-family: var(--mainType);
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.5rem;
+  /* 150% */
+  letter-spacing: 0.0125rem; }

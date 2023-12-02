@@ -1,0 +1,17 @@
+@import './global/reset/reset.scss';
+@import './global/variables/variables.scss';
+
+.title--xl{
+	font-family: var(--secondaryType);
+	font-size: 3rem;
+	font-style: normal;
+	line-height: 1.5rem; /* 50% */
+	letter-spacing: 0.0125rem;
+}
+.text--m{
+	font-family: var(--mainType);
+	text-align: center;
+	font-weight: 700;
+	line-height: 1.5rem; /* 150% */
+	letter-spacing: 0.0125rem;
+}

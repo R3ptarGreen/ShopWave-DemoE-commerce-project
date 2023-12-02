@@ -1,0 +1,39 @@
+@mixin flex( $rc, $g, $jc, $ai){
+	display			: flex;
+	flex-direction	: $rc;
+	gap				: $g;
+	@if $rc == 'row' {
+		justify-content	: $jc;
+		align-items		: $ai;	
+	}@else{
+		justify-content	: $ai;
+		align-items		: $jc;
+	}	
+}
+
+@mixin border() {
+    border: 1px solid var(--whiteTheme);
+}
+
+@mixin neo( $estado ,$br , $dis1 ){
+	color			: var(--blackTheme);
+	transition		: all .4s ease;
+	border-radius 	: $br ;
+	
+	@if $estado == 1 {
+		background-color	: var(--whiteTheme);
+		box-shadow			: 
+			$dis1    $dis1    $dis1*2 var(--shadowMain),
+			$dis1*-1 $dis1*-1 $dis1*2 var(--shadowSec),
+			inset 0 0 0 transparent,
+			inset 0 0 0 transparent;
+	}@else if $estado == 2 {
+		background-color	: var(--whiteTheme);
+		box-shadow			: 
+			0 0 0 transparent,
+			0 0 0 transparent,
+			inset $dis1    $dis1    $dis1*2 var(--shadowMain),
+			inset $dis1*-1 $dis1*-1 $dis1*2 var(--shadowSec);
+	}
+    
+}

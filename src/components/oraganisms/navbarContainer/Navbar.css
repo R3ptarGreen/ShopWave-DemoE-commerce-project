@@ -1,0 +1,32 @@
+.navbar__container {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-between;
+  align-items: center;
+  height: 6.25rem;
+  padding: 0rem 2rem; }
+
+.container--desktop {
+  display: none;
+  width: 100%;
+  padding: 0 1rem; }
+
+@media (min-width: 890px) {
+  .container--desktop {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 50rem; }
+  .container--mobile {
+    display: none; } }
+
+@media (min-width: 1000px) {
+  .navbar__container {
+    gap: 10rem; } }
+
+@media (min-width: 1440px) {
+  .container--desktop {
+    max-width: 60rem; } }

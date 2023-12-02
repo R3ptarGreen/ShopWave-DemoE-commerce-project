@@ -1,0 +1,43 @@
+/* Define here the Custom properties */
+:root{
+  /*Main*/
+  --bg: #131615;
+  --primary: #EDC63B;
+  --secondary: #CB7F15; 
+  /*Complement*/
+  --text: #FEFBEC;
+  --accent: #FAF4CB;
+
+  /*Neutral*/
+  --blackTheme       : #222222;
+  --whiteTheme       : #ececec;
+  --shadowMain       : #c9c9c9;
+  --shadowSec        : #ffffff;
+  --blackborder      : #00000050;
+
+
+  /* Tipography*/
+  --mainType  : 'Raleway';
+  --secondaryType: 'Oswald';
+};
+@font-face {
+  font-family: 'Oswald';
+  src: url('/public/assets/fonts/Oswald/Oswald-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: url('/public/assets/fonts/Raleway/Raleway-Bold.ttf') format('truetype');
+}
+/*Dark theme
+@media (prefers-color-scheme: dark) {
+  :root{
+    --blackTheme    : #ececec;
+    --whiteTheme    : #303030;
+    --shadowMain    : #242424;
+    --sahdowSec     : #3c3c3c;
+    
+    --blackBorder   : #FFFFFF50;
+  }
+};
+*/
