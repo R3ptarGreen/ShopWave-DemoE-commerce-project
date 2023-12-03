@@ -10,4 +10,5 @@ Currently, two official plugins are available:
 what I learn:
 
 barrel components
-import fonts
+download fonts
+mastering responsive design

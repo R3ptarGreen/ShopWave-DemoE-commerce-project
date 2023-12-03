@@ -6,9 +6,6 @@
     }
     &__menuLinkActiveText{
         color: var(--text);
-        &:hover{
-            color: var(--primary);
-        }
         cursor: pointer;
     }
 }
