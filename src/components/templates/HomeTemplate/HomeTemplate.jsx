@@ -1,4 +1,4 @@
-import { Navbar, Hero, Category } from '../../index';
+import { Navbar, Hero, Category, Features } from '../../index';
 import './HomeTemplate.scss';
 const HomeTemplate = () => {
 	return (
@@ -9,7 +9,10 @@ const HomeTemplate = () => {
 			</header>
 			<main>
 				<section className='Home__section'>
-					<Category/>
+					<Category />
+				</section>
+				<section className='Home__section'>
+					<Features />
 				</section>
 			</main>
 			<h1>Home</h1>

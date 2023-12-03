@@ -1,0 +1,8 @@
+@import '../../../global/mixins/mixins.scss';
+.features{
+    &__container{
+        @include flex(row, 1rem, center, center);
+        padding: 1rem;
+        flex-wrap: wrap;
+    }
+}

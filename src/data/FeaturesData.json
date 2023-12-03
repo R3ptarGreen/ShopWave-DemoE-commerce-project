@@ -1,0 +1,24 @@
+{
+    "featuresData": [
+        {
+            "alt": "carIcon",
+            "title": "Free Shipping",
+            "description": "Free Shipping On All Order"
+        },
+        {
+            "alt": "guaranteeIcon",
+            "title": "Money Gurantee",
+            "description": "30 Day Money Back"
+        },
+        {
+            "alt": "supportIcon",
+            "title": "Support 24/7",
+            "description": "Technical Support 24/7"
+        },
+        {
+            "alt": "paymentIcon",
+            "title": "Secure Payment",
+            "description": "All Cards Accepted"
+        }
+    ]
+}
