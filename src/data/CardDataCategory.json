@@ -1,0 +1,28 @@
+{
+    "cardData": [
+        {
+            "category": "Sport",
+            "alt": "sportCategory"
+        },
+        {
+            "category": "Running",
+            "alt": "runningCategory"
+        },
+        {
+            "category": "Explore",
+            "alt": "exploreCategory"
+        },
+        {
+            "category": "Training",
+            "alt": "trainingCategory"
+        },
+        {
+            "category": "Classic",
+            "alt": "classicCategory"
+        },
+        {
+            "category": "Life Style",
+            "alt": "lifeStyleCategory"
+        }
+]
+}

@@ -87,6 +87,15 @@ body {
   /* 50% */
   letter-spacing: 0.0125rem; }
 
+.title--l {
+  font-family: var(--secondaryType);
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5rem;
+  /* 75% */
+  letter-spacing: 0.0125rem; }
+
 .text--m {
   font-family: var(--mainType);
   text-align: center;

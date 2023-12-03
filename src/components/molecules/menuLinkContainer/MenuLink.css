@@ -10,5 +10,3 @@
 
 .navbar__menuLinkText {
   color: var(--text); }
-  .navbar__menuLinkText:hover {
-    color: var(--primary); }

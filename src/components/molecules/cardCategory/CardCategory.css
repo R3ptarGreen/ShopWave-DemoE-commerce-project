@@ -1,0 +1,20 @@
+.card {
+  width: 100%;
+  min-width: 21rem;
+  max-width: 28.25rem;
+  border-radius: 1rem; }
+  .card__img {
+    width: 100%;
+    min-width: 21rem;
+    max-width: 28.25rem; }
+  .card__info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem;
+    background-color: var(--primary); }
+  .card__btn {
+    background-color: var(--bg);
+    color: var(--primary); }

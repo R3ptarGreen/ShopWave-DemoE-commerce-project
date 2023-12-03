@@ -9,5 +9,3 @@
 .navbar__menuLinkActiveText {
   color: var(--text);
   cursor: pointer; }
-  .navbar__menuLinkActiveText:hover {
-    color: var(--primary); }

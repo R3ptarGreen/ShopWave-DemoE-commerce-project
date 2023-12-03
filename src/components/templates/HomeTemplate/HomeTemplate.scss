@@ -1,0 +1,11 @@
+.Home{
+    &__header{
+        background-image: url('/public/assets/img/bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    &__section{
+        padding: 1rem;
+    }
+}
