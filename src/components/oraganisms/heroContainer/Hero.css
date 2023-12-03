@@ -1,0 +1,41 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  justify-content: center;
+  align-items: center; }
+  .hero__carrousel {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+    position: relative; }
+  .hero__brandCollection {
+    position: absolute;
+    bottom: 0; }
+  .hero__img {
+    width: 100%;
+    min-width: 16rem;
+    max-width: 60rem; }
+
+@media (min-width: 500px) {
+  .hero__brandCollection {
+    font-size: 4rem; } }
+
+@media (min-width: 750px) {
+  .hero {
+    padding-left: 3rem;
+    flex-direction: row-reverse; } }
+
+@media (min-width: 1200px) {
+  .hero {
+    padding-left: 6rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse; }
+    .hero__brandCollection {
+      font-size: 4rem; } }

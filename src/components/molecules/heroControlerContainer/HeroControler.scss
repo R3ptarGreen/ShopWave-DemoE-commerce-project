@@ -1,0 +1,31 @@
+@import '../../../global/mixins/mixins.scss';
+.hero{
+    &__controllerContainer{
+        @include flex(column, 2rem, center, center);
+        width: 13.9rem;
+    }
+    &__productName{
+        color: var(--text);
+        text-align: center;
+        font-family: Oswald;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.5rem; /* 75% */
+        letter-spacing: 0.0125rem;
+    }
+    &__button{
+        border: 1px solid var(--primary);
+        color: var(--primary);
+    }
+}
+.carrouselController{
+    @include flex(row, 0.625rem, center, center);
+}
+.controller{
+    width: 3.125rem;
+    height: 0.625rem;
+    background-color: var(--text);
+    border-radius: 1rem;
+    cursor: pointer;
+}

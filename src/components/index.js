@@ -1,7 +1,12 @@
 export { default as Icon } from './atoms/IconComponent/Icon';
-export * from './molecules/Index';
+export { default as Img } from './atoms/ImgComponent/Img';
+export { default as Button } from './atoms/button/Button';
+export { default as BrandCollection } from './atoms/heroBrandCollection/BrandCollection';
 export { default as Brand } from './molecules/brandContainer/Brand';
+export { default as HeroControler } from './molecules/heroControlerContainer/HeroControler';
 export { default as MenuLinkActive } from './molecules/menuLinkActiveContainer/MenuLinkActive';
 export { default as MenuLink } from './molecules/menuLinkContainer/MenuLink';
+export { default as Hero } from './oraganisms/heroContainer/Hero';
 export { default as Navbar } from './oraganisms/navbarContainer/Navbar';
+export { default as HeroTemplate } from './templates/HeroTemplate';
 export { default as NavbarTemplate } from './templates/NavbarTemplate';

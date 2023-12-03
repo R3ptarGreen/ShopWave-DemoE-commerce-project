@@ -33,8 +33,7 @@ form, input, textarea, select, button, label {
   display: block; }
 
 body {
-  background-color: var(--blackTheme);
+  background-color: var(--bg);
   min-height: 100vh;
   font-size: var(--defaultSize);
-  font-family: var(--mainType);
-  font-weight: 400; }
+  font-family: var(--mainType); }

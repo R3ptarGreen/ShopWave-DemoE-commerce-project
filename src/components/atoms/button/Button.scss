@@ -1,0 +1,10 @@
+@import '../../../global/mixins/mixins.scss';
+.button{
+    @include flex(row, 0, center, center);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.btnContainer{
+    width: fit-content;
+}

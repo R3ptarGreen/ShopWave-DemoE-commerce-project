@@ -1,0 +1,40 @@
+@import '../../../global/mixins/mixins.scss';
+.hero{
+    @include flex(column, 2rem, center, center);
+    &__carrousel{
+        @include flex(row, 0, center, center);
+        position: relative;
+    }
+    &__brandCollection{
+        position: absolute;
+        bottom: 0;
+    }
+    &__img{
+        width: 100%;
+        min-width: 16rem;
+        max-width: 60rem;
+    }
+}
+@media (min-width: 500px) {
+    .hero{
+        &__brandCollection{
+            font-size: 4rem;
+        }
+    }
+}
+@media (min-width: 750px) {
+    .hero{
+        padding-left: 3rem;
+        flex-direction: row-reverse;
+    }
+}
+@media (min-width: 1200px) {
+    .hero{
+        padding-left: 6rem;
+        @include flex(row, 0, space-between, center);
+        flex-direction: row-reverse;
+        &__brandCollection{
+            font-size: 4rem;
+        }
+    }
+}

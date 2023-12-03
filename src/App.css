@@ -33,11 +33,10 @@ form, input, textarea, select, button, label {
   display: block; }
 
 body {
-  background-color: var(--blackTheme);
+  background-color: var(--bg);
   min-height: 100vh;
   font-size: var(--defaultSize);
-  font-family: var(--mainType);
-  font-weight: 400; }
+  font-family: var(--mainType); }
 
 /* Define here the Custom properties */
 :root {
@@ -56,7 +55,8 @@ body {
   --blackborder: #00000050;
   /* Tipography*/
   --mainType: 'Raleway';
-  --secondaryType: 'Oswald'; }
+  --secondaryType: 'Oswald';
+  --defaultSize: 1rem; }
 
 @font-face {
   font-family: 'Oswald';

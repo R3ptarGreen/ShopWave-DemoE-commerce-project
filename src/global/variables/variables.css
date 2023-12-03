@@ -15,7 +15,8 @@
   --blackborder: #00000050;
   /* Tipography*/
   --mainType: 'Raleway';
-  --secondaryType: 'Oswald'; }
+  --secondaryType: 'Oswald';
+  --defaultSize: 1rem; }
 
 @font-face {
   font-family: 'Oswald';
