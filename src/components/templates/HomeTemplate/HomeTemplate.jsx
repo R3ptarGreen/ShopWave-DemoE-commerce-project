@@ -1,10 +1,9 @@
-import { Navbar, Hero, Category, Features, Offer, BestSellerProducts, Footer } from '../../index';
+import { Hero, Category, Features, Offer, BestSellerProducts } from '../../index';
 import './HomeTemplate.scss';
 const HomeTemplate = () => {
 	return (
 		<>
 			<header className='Home__header'>
-				<Navbar />
 				<Hero />
 			</header>
 			<main>
@@ -42,7 +41,6 @@ const HomeTemplate = () => {
 					/>
 				</section>
 			</main>
-			<Footer/>
 		</>
 	);
 };
