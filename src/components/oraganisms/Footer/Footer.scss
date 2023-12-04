@@ -1,0 +1,17 @@
+@import '../../../global/mixins/mixins.scss';
+.footer{
+    @include flex(column, 2rem, center, center);
+   &__credit{
+    max-width: 12rem;
+    margin-bottom: 1rem;
+    cursor: default;
+   }
+}
+@media (min-width: 500px) {
+    .footer{
+        &__credit{
+            text-align: center;
+         max-width: 25rem;
+        }
+     }
+}

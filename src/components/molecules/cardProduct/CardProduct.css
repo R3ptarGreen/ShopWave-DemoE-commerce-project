@@ -3,7 +3,8 @@
   height: 100%;
   max-width: 27.375rem;
   max-height: 30.725rem;
-  border-radius: 1rem; }
+  border-radius: 1rem;
+  overflow: hidden; }
   .cardProd__header {
     display: flex;
     flex-direction: row;
@@ -13,14 +14,17 @@
     height: 3.75rem;
     padding: 0rem 1rem;
     background-color: var(--primary); }
-  .cardProd__textHead {
+  .cardProd__brand {
     color: var(--bg); }
+  .cardProd__price {
+    color: var(--secondary); }
   .cardProd__imgContainer {
     display: flex;
     flex-direction: row;
     gap: 0;
     justify-content: center;
     align-items: center;
+    background-color: var(--accent);
     width: 100%;
     max-width: 27.375rem;
     height: 18.75rem; }

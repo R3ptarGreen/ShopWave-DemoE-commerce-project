@@ -1,0 +1,18 @@
+@import '../../../global/mixins/mixins.scss';
+.footer{
+    &__brand{
+        @include flex(column, 1rem, center, center);
+        padding: 2rem;
+        width: 100%;
+    }
+    &__social{
+        @include flex(row, 1rem, center, center);
+    }
+}
+@media (min-width: 550px) {
+    .footer{
+        &__brand{
+            @include flex(row, 1rem, space-between, center);
+        }
+    }
+}

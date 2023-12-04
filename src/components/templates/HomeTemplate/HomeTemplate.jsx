@@ -1,4 +1,4 @@
-import { Navbar, Hero, Category, Features, Offer, BestSellerProducts } from '../../index';
+import { Navbar, Hero, Category, Features, Offer, BestSellerProducts, Footer } from '../../index';
 import './HomeTemplate.scss';
 const HomeTemplate = () => {
 	return (
@@ -42,7 +42,7 @@ const HomeTemplate = () => {
 					/>
 				</section>
 			</main>
-			<h1>Home</h1>
+			<Footer/>
 		</>
 	);
 };
