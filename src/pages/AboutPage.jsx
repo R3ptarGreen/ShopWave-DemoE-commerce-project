@@ -1,10 +1,13 @@
+import { AboutTemplate } from '../components';
 
 const AboutPage = () => {
-  return (
-    <div>
-        
-    </div>
-  )
-}
+	return (
+		<div>
+			<>
+				<AboutTemplate />
+			</>
+		</div>
+	);
+};
 
-export default AboutPage
+export default AboutPage;

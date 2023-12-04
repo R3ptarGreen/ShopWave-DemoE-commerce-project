@@ -4,7 +4,8 @@
   gap: 1rem;
   justify-content: center;
   align-items: center;
-  padding: 2rem 0; }
+  padding: 2rem;
+  width: 100%; }
 
 .footer__social {
   display: flex;
@@ -12,3 +13,11 @@
   gap: 1rem;
   justify-content: center;
   align-items: center; }
+
+@media (min-width: 550px) {
+  .footer__brand {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center; } }

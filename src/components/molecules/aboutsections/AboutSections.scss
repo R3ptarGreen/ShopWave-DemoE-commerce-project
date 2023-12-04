@@ -1,0 +1,45 @@
+@import '../../../global/mixins/mixins.scss';
+.about{
+    &__sectionsContainer{
+        @include flex(column, 2rem, center, center);
+        width: 100%;
+        padding: 1rem;
+        cursor: default;
+    }
+    &__section{
+        @include flex(column, 0, center, center);
+    }
+    &__section--right{
+        flex-direction: column-reverse;
+    }
+    &__img{
+        width: 100%;
+        min-width: 15rem;
+        max-width: 38.18rem;
+        border-radius: 1rem;
+    }
+    &__infoContainer{
+        @include flex(column, 1rem, start, center);
+        width: 100%;
+        padding: 1rem;
+    }
+    &__infoContainer--right{
+        align-items: end;
+        text-align: end;
+    }
+    &__sectionTitle{
+        color: var(--primary);
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (min-width: 650px) {
+    .about{ 
+        &__section{
+            flex-direction: row;
+        }
+        &__section--right{
+            flex-direction: row-reverse;
+        }
+    }
+}
