@@ -1,0 +1,117 @@
+{
+    "productData": [
+        {   
+            "id": "Dykdp4Re",
+            "category": "Classics",
+            "brand": "Converse",
+            "price": "39.99",
+            "prduct": "Converse Chuck Taylor All Star",
+            "activeColor": [{
+                "color":"camel",
+                "img": "Dykdp4Re-camel"
+            },
+            {
+                "color":"brown",
+                "img":"Dykdp4Re-brown"
+            }
+            ]
+        },
+        {   
+            "id": "76Jqq9nY",
+            "category": "Classics",
+            "brand": "Vans",
+            "price": "39.99",
+            "prduct": "Vans Classics Sk8-Hi",
+            "activeColor": [{
+                "color":"black",
+                "img": "76Jqq9nY-Black"
+            },
+            {
+                "color":"white",
+                "img":"76Jqq9nY-white"
+            },
+            {
+                "color":"dark",
+                "img": "76Jqq9nY-dark"
+            }
+            ]
+        },
+        {   
+            "id": "AxqpNjtw",
+            "category": "Explore",
+            "brand": "Adidas",
+            "price": "39.99",
+            "prduct": "Adidas TERREX AGRAVIC FLOW 2.0",
+            "activeColor": [{
+                "color":"orange",
+                "img": "AxqpNjtw-orange"
+            },
+            {
+                "color":"lime",
+                "img":"AxqpNjtw-lime"
+            },
+            {
+                "color":"blue",
+                "img": "AxqpNjtw-blue"
+            }
+            ]
+        },
+        {   
+            "id": "KuiktRXt",
+            "category": "Sport",
+            "brand": "Nike",
+            "price": "119.99",
+            "prduct": "Nike Mercurial Superfly 9 Club",
+            "activeColor": [{
+                "color":"white",
+                "img": "KuiktRXt-white"
+            },
+            {
+                "color":"black",
+                "img":"KuiktRXt-black"
+            }
+            ]
+        },
+        {   
+            "id": "2KF5qG2p",
+            "category": "Running",
+            "brand": "Puma",
+            "price": "49.99",
+            "prduct": "Puma Softride Enzo Evo",
+            "activeColor": [{
+                "color":"black",
+                "img": "2KF5qG2p-black"
+            },
+            {
+                "color":"red",
+                "img":"2KF5qG2p-Red"
+            },
+            {
+                "color":"pink",
+                "img": "2KF5qG2p-pink"
+            }
+            ]
+        },
+        {   
+            "id": "bTyiKi5A",
+            "category": "Life Style",
+            "brand": "Nike",
+            "price": "89.99",
+            "prduct": "Nike SB Force 58",
+            "activeColor": [{
+                "color":"purple",
+                "img": "bTyiKi5A-purple"
+            },
+            {
+                "color":"green",
+                "img":"bTyiKi5A-green"
+            }
+            ]
+        }
+    ]
+}
+
+
+
+
+

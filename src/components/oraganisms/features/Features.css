@@ -1,8 +1,8 @@
-.category__container {
+.features__container {
   display: flex;
   flex-direction: row;
-  gap: 2rem;
+  gap: 1rem;
   justify-content: center;
   align-items: center;
-  padding: 1rem 0rem;
+  padding: 1rem;
   flex-wrap: wrap; }

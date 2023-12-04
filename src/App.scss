@@ -16,6 +16,14 @@
 	line-height: 1.5rem; /* 75% */
 	letter-spacing: 0.0125rem;
 }
+.title--m{
+	font-family: var(--secondaryType);
+	text-align: center;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 1.5rem; /* 150% */
+	letter-spacing: 0.0125rem;
+}
 .text--m{
 	font-family: var(--mainType);
 	text-align: center;

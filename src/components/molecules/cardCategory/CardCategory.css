@@ -2,11 +2,24 @@
   width: 100%;
   min-width: 21rem;
   max-width: 28.25rem;
-  border-radius: 1rem; }
-  .card__img {
+  max-height: 30.5rem;
+  border-radius: 1rem;
+  overflow: hidden; }
+  .card__imgContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--accent);
     width: 100%;
     min-width: 21rem;
-    max-width: 28.25rem; }
+    max-width: 28.25rem;
+    max-height: 18.5rem; }
+  .card__img {
+    width: 100%;
+    max-width: 28.25rem;
+    max-height: 18.5rem; }
   .card__info {
     display: flex;
     flex-direction: column;

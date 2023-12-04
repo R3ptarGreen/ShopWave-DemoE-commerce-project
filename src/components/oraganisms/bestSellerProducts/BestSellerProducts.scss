@@ -1,0 +1,10 @@
+@import '../../../global/mixins/mixins.scss';
+.best{
+    @include flex(column, 2rem, center, center);
+    padding: 0 1rem;
+    &__container{
+        @include flex(row, 1rem, center, center);
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}

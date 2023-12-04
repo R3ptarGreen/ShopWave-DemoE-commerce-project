@@ -22,7 +22,7 @@ const OfferCard = ({
 			</figure>
 			<div className='offer__infoContainer'>
 				<h2 className='title--l'>{offerSubtitle}</h2>
-				<p className='text--m'>Save up to{offerSave}</p>
+				<p className='text--m'>Save up to {offerSave}</p>
                 <Button classNameColor={'offer__button'} buttonText={'Buy Here'}/>
 			</div>
 		</div>
