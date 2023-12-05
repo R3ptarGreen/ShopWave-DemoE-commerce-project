@@ -1,5 +1,5 @@
 import './Footer.scss';
-import { FooterBrand, FooterContent } from '../../index';
+import { FooterBrand, FooterContent} from '../../index';
 const Footer = () => {
 	return (
 		<footer className='footer'>
