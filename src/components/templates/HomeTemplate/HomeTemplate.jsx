@@ -3,7 +3,7 @@ import './HomeTemplate.scss';
 const HomeTemplate = () => {
 	return (
 		<>
-			<header className='Home__header'>
+			<header id='main' className='Home__header'>
 				<Hero />
 			</header>
 			<main>

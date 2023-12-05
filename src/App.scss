@@ -31,17 +31,10 @@
 	line-height: 1.5rem; /* 150% */
 	letter-spacing: 0.0125rem;
 }
-.up{
-	@include flex(row, 0, center, center);
-	border-radius: 100%;
-	height: 3rem;
-	width: 3rem;
-	background-color: var(--primary);
-    position: fixed;
-    top: 90%;
-    left: 90%;
-	transform: translate(-90%, -90%);
-	&__icon{
-		width: 3rem;
-	}
+
+.hide{
+	display: none;
+}
+.show{
+	display: flex;
 }
