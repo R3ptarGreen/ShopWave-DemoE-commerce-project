@@ -1,0 +1,27 @@
+.LS {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--primary);
+  width: 100%;
+  width: 20.75rem;
+  border-radius: 0 0 1rem 1rem; }
+  .LS__title {
+    color: var(--bg); }
+  .LS__form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+  .LS__buttonColor {
+    background-color: var(--bg);
+    color: var(--primary); }
+
+@media (min-width: 900px) {
+  .LS {
+    border-radius: 0 1rem 1rem 0; } }
