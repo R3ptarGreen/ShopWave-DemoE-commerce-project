@@ -8,6 +8,8 @@ export { default as AboutSections } from './molecules/aboutsections/AboutSection
 export { default as Brand } from './molecules/brandContainer/Brand';
 export { default as CardCategory } from './molecules/cardCategory/CardCategory';
 export { default as CardProduct } from './molecules/cardProduct/CardProduct';
+export { default as ContactForm } from './molecules/contactForm/ContactForm';
+export { default as ContactInfo } from './molecules/contactInfo/ContactInfo';
 export { default as FeaturesCard } from './molecules/featuresCard/FeaturesCard';
 export { default as FooterBrand } from './molecules/footerBrand/FooterBrand';
 export { default as HeroControler } from './molecules/heroControlerContainer/HeroControler';
@@ -15,6 +17,7 @@ export { default as LoginContainer } from './molecules/loginContainer/LoginConta
 export { default as MenuLinkActive } from './molecules/menuLinkActiveContainer/MenuLinkActive';
 export { default as MenuLink } from './molecules/menuLinkContainer/MenuLink';
 export { default as OfferCard } from './molecules/offerCard/OfferCard';
+export { default as Contact } from './oraganisms/Contact/Contact';
 export { default as Footer } from './oraganisms/Footer/Footer';
 export { default as BestSellerProducts } from './oraganisms/bestSellerProducts/BestSellerProducts';
 export { default as Category } from './oraganisms/category/Category';
@@ -24,5 +27,6 @@ export { default as Login } from './oraganisms/login/Login';
 export { default as Navbar } from './oraganisms/navbar/Navbar';
 export { default as Offer } from './oraganisms/offer/Offer';
 export { default as AboutTemplate } from './templates/AboutTemplate/AboutTemplate';
+export { default as ContactTemplate } from './templates/ContactTemplate/ContactTemplate';
 export { default as HomeTemplate } from './templates/HomeTemplate/HomeTemplate';
 export { default as LoginTemplate } from './templates/LoginTemplate/LoginTemplate';

@@ -8,7 +8,7 @@ const MenuLink = () => {
             <li className='navbar__menuLinkText text--m'><Link>Shop</Link></li>
             <li className='navbar__menuLinkText text--m'><Link to={'/about'}>About</Link></li>
             <li className='navbar__menuLinkText text--m'><Link>Blog</Link></li>
-            <li className='navbar__menuLinkText text--m'><Link>Contact</Link></li>
+            <li className='navbar__menuLinkText text--m'><Link to={'/contact'}>Contact</Link></li>
         </ul>
     </div>
   )
