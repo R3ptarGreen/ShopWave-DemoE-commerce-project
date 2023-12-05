@@ -21,6 +21,7 @@ export { default as Contact } from './oraganisms/Contact/Contact';
 export { default as Footer } from './oraganisms/Footer/Footer';
 export { default as BestSellerProducts } from './oraganisms/bestSellerProducts/BestSellerProducts';
 export { default as Category } from './oraganisms/category/Category';
+export { default as CoomingSoon } from './oraganisms/coomingSoon/CoomingSoon';
 export { default as Features } from './oraganisms/features/Features';
 export { default as Hero } from './oraganisms/hero/Hero';
 export { default as Login } from './oraganisms/login/Login';
@@ -30,3 +31,4 @@ export { default as AboutTemplate } from './templates/AboutTemplate/AboutTemplat
 export { default as ContactTemplate } from './templates/ContactTemplate/ContactTemplate';
 export { default as HomeTemplate } from './templates/HomeTemplate/HomeTemplate';
 export { default as LoginTemplate } from './templates/LoginTemplate/LoginTemplate';
+export { default as CoomingSoonTemplate } from './templates/coomingSoonTemplate/CoomingSoonTemplate';

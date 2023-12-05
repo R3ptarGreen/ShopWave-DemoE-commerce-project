@@ -1,0 +1,41 @@
+.cooming{
+    &__container{
+        @include flex(column, 2rem, center, center);
+        width: 100%;
+        padding: 2rem;
+        
+    }
+    &__imgContainer{
+        @include flex(row, 0, center, center);
+        width: 100%;
+        min-width: 23rem;
+    }
+    &__img{
+        width: 100%;
+        min-width: 23rem;
+        max-width: 80vw;
+    }
+    &__info{
+        @include flex(column, 2rem, center, center);
+        cursor: default;
+    }
+    &__title{
+        font-size: 2rem;
+    }
+    &__button{
+        border: 1px solid var(--primary);
+        color: var(--primary);
+        &:hover{
+            background-color: var(--primary);
+            color: var(--bg);
+        }
+    }
+}
+
+@media (min-width: 600px) {
+    .cooming{
+        &__title{
+            font-size: 3rem;
+        }
+    }
+}

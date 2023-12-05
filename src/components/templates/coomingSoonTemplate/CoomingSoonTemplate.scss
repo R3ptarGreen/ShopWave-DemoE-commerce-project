@@ -1,0 +1,4 @@
+.cooming{
+    @include flex(row, 0, center, center);
+    min-height: 100vh;
+}
