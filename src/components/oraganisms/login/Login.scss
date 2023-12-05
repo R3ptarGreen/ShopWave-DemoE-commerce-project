@@ -1,0 +1,49 @@
+@import '../../../global/mixins/mixins.scss';
+.login{
+    &__container{
+        @include flex(column, 0, center, center);
+        padding: 2rem;
+    }
+    &__img{
+        @include flex(row, 1rem, center, end);
+        background-image: url('/public/assets/img/LSBanner.png');
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        min-height: 16rem;  
+        max-height: 28.25rem;
+        min-width: 20.75rem;
+        max-width: 20.75rem;
+        border-radius: 1rem 1rem 0 0;
+    }
+    &__switch{
+        background-color: var(--primary);
+        padding: 0.5rem;
+        border-radius: 1rem 1rem 0 0;
+        cursor: pointer;
+    }
+}
+.disactive{
+    background-color: rgba(237, 198, 59, 0.5)
+}
+.hide{
+    display: none;
+}
+@media (min-width: 900px) {
+    .login{
+        &__container{
+            flex-direction: row;
+            min-width: 55.5rem;
+        }
+        &__img{
+            max-width: 37rem;  
+            height: 26.8rem;
+            border-radius: 1rem 0 0 1rem;
+            @include flex(column, 1rem, end, center);
+        }
+        &__switch{
+            border-radius: 1rem 0 0 1rem;
+            padding: 1rem;
+        }
+    }
+}

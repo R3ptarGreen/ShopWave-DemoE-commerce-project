@@ -1,0 +1,10 @@
+.input{
+    background-color: var(--accent);
+    width: 18.75rem;
+    height: 4rem;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    &::placeholder{
+        color: var(--bg);
+    }
+}
