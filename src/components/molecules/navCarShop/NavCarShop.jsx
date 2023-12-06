@@ -1,20 +1,15 @@
 import { Button, Img, Icon } from '../../index';
 import PropTypes from 'prop-types';
 import './NavCarShop.scss';
-import {useEffect, useState} from 'react'
+import {useState} from 'react'
 const NavCarShop = ({className}) => {
 	const [counter, setCounter] = useState(1)
-	const handleAddCounter = () => {
-		setCounter(counter + 1)
+	
+	const handleCounter = amount => e => {
+		e.preventDefault()
+		const newCounter = counter + amount;
+		setCounter(newCounter > 0 ? newCounter : 1)
 	}
-	const handleRemoveCounter = () => {
-		setCounter(counter - 1)
-	}
-	useEffect(()=>{
-		if(counter <  1){
-			setCounter(0)
-		}
-	},[counter])
 	return (
 		<div className={`carShop ${className}`}>
 			<div className='carShop__item'>
@@ -23,8 +18,8 @@ const NavCarShop = ({className}) => {
 				<div className='carShop__active'>
 					<p className='carShop__counter '>{counter}</p>
 					<div className='carShop__controller'>
-						<Icon altIcon={'minusIcon'} onClick={handleRemoveCounter}/>
-						<Icon altIcon={'plusIcon'} onClick={handleAddCounter}/>
+						<Icon altIcon={'minusIcon'} onClick={handleCounter(-1)}/>
+						<Icon altIcon={'plusIcon'} onClick={handleCounter(1)}/>
 					</div>
 				</div>
 				<Icon className={'carShop__delete'} altIcon={'deleteIcon'}/>

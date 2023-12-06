@@ -1,23 +1,29 @@
 .hero{
     @include flex(column, 2rem, center, center);
+    cursor: default;
     &__carrousel{
-        @include flex(row, 0, center, center);
+        @include flex(column, 0, center, start);
         position: relative;
-    }
-    &__brandCollection{
-        position: absolute;
-        bottom: 0;
+        text-align: center;
+        width: 100%;
+        min-width: 16rem;
+        max-height: 35rem;
+        max-width: 35rem;
+        min-height: 16rem;
     }
     &__img{
         width: 100%;
         min-width: 16rem;
-        max-width: 60rem;
+        max-height: 25rem;
+        max-width: 25rem;
+        min-height: 16rem;
+        border-radius: 1rem;
     }
 }
 @media (min-width: 500px) {
     .hero{
         &__brandCollection{
-            font-size: 4rem;
+            font-size: 3.5rem;
         }
     }
 }
@@ -25,6 +31,14 @@
     .hero{
         padding-left: 3rem;
         flex-direction: row-reverse;
+        &carrousel{
+            max-width: 40rem;
+            max-height: 40rem;
+        }
+        &__img{
+            max-width: 30rem;
+            max-height: 30rem;
+        }
     }
 }
 @media (min-width: 1200px) {
@@ -32,6 +46,14 @@
         padding-left: 6rem;
         @include flex(row, 0, space-between, center);
         flex-direction: row-reverse;
+        &__carrousel{
+            max-width: 50rem;
+            max-height: 50rem;  
+        }
+        &__img{
+            max-width: 40rem;
+            max-height: 40rem;
+        }
         &__brandCollection{
             font-size: 4rem;
         }

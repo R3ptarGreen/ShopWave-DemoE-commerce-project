@@ -12,3 +12,8 @@ what I learn:
 barrel components
 download fonts
 mastering responsive design
+react router dom
+useEffect
+useState
+useRef
+clean code

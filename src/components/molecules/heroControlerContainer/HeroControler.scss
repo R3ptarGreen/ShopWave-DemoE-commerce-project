@@ -1,7 +1,7 @@
 .hero{
     &__controllerContainer{
         @include flex(column, 2rem, center, center);
-        width: 13.9rem;
+        width: 23rem;
     }
     &__productName{
         color: var(--text);
@@ -16,6 +16,10 @@
     &__button{
         border: 1px solid var(--primary);
         color: var(--primary);
+        &:hover{
+            background-color: var(--primary);
+            color: var(--bg)
+        }   
     }
 }
 .carrouselController{
@@ -27,4 +31,8 @@
     background-color: var(--text);
     border-radius: 1rem;
     cursor: pointer;
+}
+.activeColor{
+    background-color: var(--primary);
+    transition: all 0.07s ease-in;
 }
