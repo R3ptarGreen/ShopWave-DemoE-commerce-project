@@ -1,12 +1,15 @@
-import './ContactTemplate.scss'
-import {Contact} from '../../index'
+import './ContactTemplate.scss';
+import { Contact, Up } from '../../index';
 const ContactTemplate = () => {
-  return (
-    <main id='main' className='contact'>
-        <Contact/>
-        <div className='contact__rectangle'></div>
-    </main>
-  )
-}
+	return (
+		<>
+			<main className='contact main'>
+				<Contact />
+				<div className='contact__rectangle'></div>
+			</main>
+      <Up/>
+		</>
+	);
+};
 
-export default ContactTemplate
+export default ContactTemplate;

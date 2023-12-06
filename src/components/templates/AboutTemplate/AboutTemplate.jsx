@@ -1,13 +1,16 @@
-import {AboutSections} from '../../index'
+import { AboutSections, Up } from '../../index';
 import './AboutTemplate.scss';
 const AboutTemplate = () => {
-  return (
-    <main id='main'>
-        <section className='about'>
-            <AboutSections/>
-        </section>
-    </main>
-  )
-}
+	return (
+		<>
+			<main className='main'>
+				<section className='about'>
+					<AboutSections />
+				</section>
+			</main>
+			<Up />
+		</>
+	);
+};
 
-export default AboutTemplate
+export default AboutTemplate;

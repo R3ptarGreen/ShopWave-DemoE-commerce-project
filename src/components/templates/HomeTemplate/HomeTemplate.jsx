@@ -1,9 +1,9 @@
-import { Hero, Category, Features, Offer, BestSellerProducts } from '../../index';
+import { Hero, Category, Features, Offer, BestSellerProducts, Up } from '../../index';
 import './HomeTemplate.scss';
 const HomeTemplate = () => {
 	return (
 		<>
-			<header id='main' className='Home__header'>
+			<header className='Home__header main'>
 				<Hero />
 			</header>
 			<main>
@@ -41,6 +41,7 @@ const HomeTemplate = () => {
 					/>
 				</section>
 			</main>
+			<Up />
 		</>
 	);
 };

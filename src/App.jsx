@@ -1,6 +1,6 @@
 import './App.scss';
 import { Outlet } from 'react-router-dom';
-import { Navbar, Footer, Up } from './components/index';
+import { Navbar, Footer} from './components/index';
 
 function App() {
 	return (
@@ -8,7 +8,6 @@ function App() {
 			<Navbar />
 			<Outlet />
 			<Footer />
-			<Up/>
 		</>
 	);
 }

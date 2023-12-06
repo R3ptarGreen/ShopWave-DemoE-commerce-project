@@ -1,9 +1,17 @@
 import { useState, useEffect } from 'react';
 import { Icon } from '../../index';
 import './Up.scss';
+import PropTypes from 'prop-types';
+
 const Up = () => {
 	const [showUp, setShowUp] = useState(false);
 	const distance = 200;
+
+	const handleUp = () => {
+		document.querySelector('.main').scrollIntoView({
+			behavior: 'smooth'
+		})
+	}
 
 	useEffect(() => {
 		const handleScroll = () => {
@@ -21,11 +29,13 @@ const Up = () => {
 
 	return (
 		<>
-			<a href='#main' className={`up ${showUp ? 'show' : 'hide'}`}>
+			<div to='#main' className={`up ${showUp ? '' : 'hide'}`} onClick={handleUp}>
 				<Icon className={'up__icon'} altIcon={'upIcon'} />
-			</a>
+			</div>
 		</>
 	);
 };
-
+Up.propTypes = {
+	handleUp: PropTypes.func
+}
 export default Up;

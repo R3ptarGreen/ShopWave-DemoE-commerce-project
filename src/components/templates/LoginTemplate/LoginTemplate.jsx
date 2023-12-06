@@ -3,7 +3,7 @@ import {Login} from '../../index';
 const LoginTemplate = () => {
 	return (
 		<>
-			<main id='main' className='login'>
+			<main className='login main'>
 				<Login />
 			</main>
 		</>
