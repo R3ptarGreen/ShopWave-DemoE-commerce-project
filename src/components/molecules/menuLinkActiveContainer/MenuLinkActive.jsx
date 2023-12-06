@@ -10,7 +10,8 @@ const MenuLinkActive = () => {
 	const handleSearch = () => {
 		setShowSearch(!showSearch);
 	};
-	const handleCarShop = () => {
+	const handleCarShop = (e) => {
+		e.preventDefault()
 		setShowCar(!showCar);
 	};
   const handleClickOutside = (e) => {
