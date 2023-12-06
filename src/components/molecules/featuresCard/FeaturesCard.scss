@@ -3,6 +3,7 @@
         @include flex(row, 0.625rem, flex-start, center);
         width: 18.75rem;
         height: 9.375rem;
+        cursor: default;
     }
     &__text{
         color: var(--text);

@@ -7,8 +7,9 @@
         cursor: default;
     }   
     &__content{
-        @include flex(column, 1rem, start, center);
+        @include flex(column, 1rem, start, start);
         width: 12rem;
+        min-height: 5.5rem
     }
     &__infoContainer{
         @include flex(column, 0, start, center);

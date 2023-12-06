@@ -5,6 +5,10 @@
     &__button{
         border: 1px solid var(--primary);
         color: var(--primary);
+        &:hover{
+            background-color: var(--primary);
+            color: var(--bg)
+        }
     }
     &__formContainer{
         @include flex(column, 2rem, center, center);
@@ -16,6 +20,7 @@
     border-radius: 1rem;
     width: 18.75rem;
     padding: 1rem 2rem;
+    resize: none;
     &::placeholder{
         color: var(--bg);
     }

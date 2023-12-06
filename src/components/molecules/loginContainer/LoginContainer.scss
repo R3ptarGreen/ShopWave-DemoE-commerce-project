@@ -5,6 +5,7 @@
     width: 100%;
     width: 20.75rem;
     border-radius: 0 0 1rem 1rem;
+    cursor: default;
     &__title{
         color: var(--bg);
     }
@@ -15,6 +16,10 @@
     &__buttonColor{
         background-color: var(--bg);
         color: var(--primary);
+        &:hover{
+            background-color: var(--secondary);
+            color: var(--bg);
+        }
     }
 }
 @media (min-width: 900px) {
