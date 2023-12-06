@@ -1,13 +1,13 @@
 import './Brand.scss';
-import {Link} from 'react-router-dom'
-const Brand = () => {
+import PropTypes from 'prop-types'
+const Brand = ({className}) => {
 	return (
 		<div className='navbar__brandContainer'>
-			<Link to={'/'}>
-				<h1 className='navbar__brandText title--xl'>ShopWave</h1>
-			</Link>
+				<h1 className={`navbar__brandText title--xl ${className}`}>ShopWave</h1>
 		</div>
 	);
 };
-
+Brand.propTypes = {
+	className: PropTypes.string
+}
 export default Brand;

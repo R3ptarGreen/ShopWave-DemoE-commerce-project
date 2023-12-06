@@ -1,0 +1,38 @@
+.carShop{
+    @include flex(column, 0.5rem, center, center);
+    width: 100%;
+    padding: 1rem;
+    width: 18rem;
+    background-color: var(--bg);
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translate(-100%, 10%);
+    border-radius: 0 0 1rem 1rem;
+    &__item{
+        @include flex(row, 0.5rem, center, center);
+    }
+    &__img{
+        border-radius: 100%;
+        width: 3rem;
+        height: 3rem;
+    }
+    &__active{
+        @include flex(column, 0, center, center);
+    }
+    &__counter{
+        cursor: default;
+        font-size: 1.5rem;
+    }
+    &__controller{
+        @include flex(row, 0.25rem, center, center);
+    }
+    &__button{
+        border: 1px solid var(--primary);
+        color: var(--primary);
+        &:hover{
+            background-color: var(--primary);
+            color: var(--bg);
+        }
+    }
+}

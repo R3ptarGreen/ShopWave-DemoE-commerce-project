@@ -1,6 +1,7 @@
 .contact{
     @include flex(row, 0, center, center);
     min-height: 90vh;
+    padding-top: 6.25rem;
     &__rectangle{
         width: 100%;
         min-width: 1rem;

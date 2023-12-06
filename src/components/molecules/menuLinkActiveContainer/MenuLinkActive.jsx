@@ -1,16 +1,43 @@
-import { Link } from "react-router-dom";
-import Icon from "../../atoms/IconComponent/Icon"
+
 import './MenuLinkActive.scss';
+import { useState, useEffect, useRef } from 'react';
+import { Icon, NavCarShop } from '../../index';
 
 const MenuLinkActive = () => {
-  return (
-    <div className="navbar__menuLinkActiveContainer">
-        <Icon altIcon={'iconUser'}/>
-        <Link to={'/login'} className="navbar__menuLinkActiveText text--m">Log-In/Sign-Up</Link>
-        <Icon altIcon={'iconSearch'}/>
-        <Icon altIcon={'iconShop'}/>
-    </div>
-  )
-}
+	const [showSearch, setShowSearch] = useState(false);
+	const [showCar, setShowCar] = useState(false);
+  const containerRef = useRef(null)
+	const handleSearch = () => {
+		setShowSearch(!showSearch);
+	};
+	const handleCarShop = () => {
+		setShowCar(!showCar);
+	};
+  const handleClickOutside = (e) => {
+    if(containerRef.current && !containerRef.current.contains(e.target)){
+      setShowCar(false)
+      setShowSearch(false)
+    }
+  }
+  useEffect(() => {
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside)
+    }  
+  }, [])
 
-export default MenuLinkActive 
+	return (
+		<div className='navbar__menuLinkActiveContainer' ref={containerRef}>
+			<Icon altIcon={'iconUser'} iconLink={'/login'} />
+			<Icon altIcon={'iconSearch'} onClick={handleSearch} />
+			<input
+				className={`navbar__search ${showSearch ? '' : 'hide'}`}
+				type='text'
+			/>
+			<Icon altIcon={'iconShop'} onClick={handleCarShop} />
+			<NavCarShop className={showCar ? '' : 'hide'}/>
+		</div>
+	);
+};
+
+export default MenuLinkActive;

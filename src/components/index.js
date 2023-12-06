@@ -17,6 +17,7 @@ export { default as HeroControler } from './molecules/heroControlerContainer/Her
 export { default as LoginContainer } from './molecules/loginContainer/LoginContainer';
 export { default as MenuLinkActive } from './molecules/menuLinkActiveContainer/MenuLinkActive';
 export { default as MenuLink } from './molecules/menuLinkContainer/MenuLink';
+export { default as NavCarShop } from './molecules/navCarShop/NavCarShop';
 export { default as OfferCard } from './molecules/offerCard/OfferCard';
 export { default as BestSellerProducts } from './oraganisms/bestSellerProducts/BestSellerProducts';
 export { default as Category } from './oraganisms/category/Category';

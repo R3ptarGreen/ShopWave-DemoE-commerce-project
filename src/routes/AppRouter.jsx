@@ -13,7 +13,8 @@ const router = createBrowserRouter([
 			{path:'/contact', element: <ContactPage/>},
 		]
 	},
-	{path: '/shop', element: <CoomingSoonPage/>}
+	{path: '/shop', element: <CoomingSoonPage/>},
+	{path: '/pay', element: <CoomingSoonPage/>}
 ]);
 
 const AppRouter = () => {

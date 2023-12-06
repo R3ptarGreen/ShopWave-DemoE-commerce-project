@@ -2,9 +2,22 @@
     &__menuLinkActiveContainer{
         @include flex(row, 0.625rem, center, center);
         padding: 0.625rem;
+        position: relative;
+        max-width: 20rem;
     }
     &__menuLinkActiveText{
         color: var(--text);
         cursor: pointer;
+        &:hover{
+            color: var(--primary);
+        }
+    }
+    &__search{
+        border: 2px solid var(--accent);
+        border-radius: 1rem;
+        padding: 0.25rem 0.5rem;
+        color: var(--text);
+        min-width: 2rem;
+        max-width: 5rem;
     }
 }

@@ -1,4 +1,5 @@
 .login{
     @include flex(column, 0, center, center);
     min-height: 80vh;
+    padding-top: 6.25rem;
 }

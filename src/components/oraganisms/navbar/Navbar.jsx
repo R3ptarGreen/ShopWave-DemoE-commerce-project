@@ -1,17 +1,17 @@
-import {Brand,MenuLink,MenuLinkActive, Icon} from '../../index'
+import { Brand, MenuLink, MenuLinkActive, Icon } from '../../index';
 import './Navbar.scss';
 const Navbar = () => {
 	return (
 		<nav className='navbar'>
 			<div className='navbar__container'>
-				<Brand />
+				<Brand className={'navbar__brand'}/>
 				<div className='container--desktop'>
 					<MenuLink />
-					<MenuLinkActive />
 				</div>
-        <div className='container--mobile'>
-          <Icon altIcon={'iconMenu'}/>
-        </div>
+				<MenuLinkActive />
+				<div className='container--mobile'>
+					<Icon altIcon={'iconMenu'} />
+				</div>
 			</div>
 		</nav>
 	);
