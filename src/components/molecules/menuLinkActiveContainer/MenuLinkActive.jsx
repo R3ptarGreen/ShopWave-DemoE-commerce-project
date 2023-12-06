@@ -7,7 +7,8 @@ const MenuLinkActive = () => {
 	const [showSearch, setShowSearch] = useState(false);
 	const [showCar, setShowCar] = useState(false);
   const containerRef = useRef(null)
-	const handleSearch = () => {
+	const handleSearch = (e) => {
+		e.preventDefault()
 		setShowSearch(!showSearch);
 	};
 	const handleCarShop = (e) => {
