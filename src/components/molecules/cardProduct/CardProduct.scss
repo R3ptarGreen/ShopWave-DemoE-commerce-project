@@ -26,7 +26,7 @@
     }
     &__img{
         width: 100%;
-        max-width: 27.375rem;
+        max-width: 20rem;
         height: 18.75rem;
     }
     &__footer{
@@ -40,7 +40,8 @@
         width: 100%;
     }
     &__name{
-        color: var(--bg)
+        color: var(--bg);
+        font-size: 1.5rem;
     }
     &__controllerContainer{
         @include flex(row, 0.625rem, center, center);
@@ -51,6 +52,7 @@
         height: 1rem;
         background-color: var(--accent);
         cursor: pointer;
+        border: 1px solid var(--bg)
     }
     &__add{
         @include flex(row, 0, center, flex-end);
@@ -58,4 +60,37 @@
         height: 100%;
         
     }
+}
+.lime{
+    background-color: #39C651;
+}
+.camel{
+    background-color: #DFDCB1;
+}
+.brownRed{
+    background-color: #5F0018;
+}
+.dark, .black{
+    background-color: var(--bg);
+}
+.white{
+    background-color: white;
+}
+.orange{
+    background-color: #ffa404;
+}
+.blueLight{
+    background-color: #31BFE2;
+}
+.pink{
+    background-color: #F998C9;
+}
+.purple{
+    background-color: #8e04ff;
+}
+.red{
+    background-color: #d70b0b;
+}
+.classic{
+    background: linear-gradient(to right, #000 50%, #fff 50%);
 }

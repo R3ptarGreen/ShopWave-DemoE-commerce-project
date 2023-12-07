@@ -3,7 +3,7 @@
     padding: 0 1rem;
     &__container{
         @include flex(row, 1rem, center, center);
-        flex-wrap: wrap;
         width: 100%;
+        flex-wrap: wrap;
     }
 }

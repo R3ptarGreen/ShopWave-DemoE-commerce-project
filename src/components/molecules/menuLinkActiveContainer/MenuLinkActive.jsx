@@ -1,7 +1,6 @@
 import './MenuLinkActive.scss';
 import { useState, useEffect, useRef } from 'react';
 import { Icon, NavCarShop } from '../../index';
-
 const MenuLinkActive = () => {
 	//hooks
 	const [showSearch, setShowSearch] = useState(false);
@@ -40,7 +39,7 @@ const MenuLinkActive = () => {
 				type='text'
 			/>
 			<Icon altIcon={'iconShop'} onClick={handleClick('carShop')} />
-			<NavCarShop className={showCar ? '' : 'hide'} />
+			<NavCarShop className={showCar ? '' : 'hide'}/>
 		</div>
 	);
 };

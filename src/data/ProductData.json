@@ -5,13 +5,13 @@
             "category": "Classics",
             "brand": "Converse",
             "price": "39.99",
-            "prduct": "Converse Chuck Taylor All Star",
+            "product": "Converse Chuck Taylor All Star",
             "activeColor": [{
                 "color":"camel",
                 "img": "Dykdp4Re-camel"
             },
             {
-                "color":"brown",
+                "color":"brownRed",
                 "img":"Dykdp4Re-brown"
             }
             ]
@@ -21,9 +21,9 @@
             "category": "Classics",
             "brand": "Vans",
             "price": "39.99",
-            "prduct": "Vans Classics Sk8-Hi",
+            "product": "Vans Classics Sk8-Hi",
             "activeColor": [{
-                "color":"black",
+                "color":"classic",
                 "img": "76Jqq9nY-Black"
             },
             {
@@ -41,7 +41,7 @@
             "category": "Explore",
             "brand": "Adidas",
             "price": "39.99",
-            "prduct": "Adidas TERREX AGRAVIC FLOW 2.0",
+            "product": "Adidas TERREX AGRAVIC FLOW 2.0",
             "activeColor": [{
                 "color":"orange",
                 "img": "AxqpNjtw-orange"
@@ -51,7 +51,7 @@
                 "img":"AxqpNjtw-lime"
             },
             {
-                "color":"blue",
+                "color":"blueLight",
                 "img": "AxqpNjtw-blue"
             }
             ]
@@ -61,7 +61,7 @@
             "category": "Sport",
             "brand": "Nike",
             "price": "119.99",
-            "prduct": "Nike Mercurial Superfly 9 Club",
+            "product": "Nike Mercurial Superfly 9 Club",
             "activeColor": [{
                 "color":"white",
                 "img": "KuiktRXt-white"
@@ -77,7 +77,7 @@
             "category": "Running",
             "brand": "Puma",
             "price": "49.99",
-            "prduct": "Puma Softride Enzo Evo",
+            "product": "Puma Softride Enzo Evo",
             "activeColor": [{
                 "color":"black",
                 "img": "2KF5qG2p-black"
@@ -97,13 +97,13 @@
             "category": "Life Style",
             "brand": "Nike",
             "price": "89.99",
-            "prduct": "Nike SB Force 58",
+            "product": "Nike SB Force 58",
             "activeColor": [{
                 "color":"purple",
                 "img": "bTyiKi5A-purple"
             },
             {
-                "color":"green",
+                "color":"lime",
                 "img":"bTyiKi5A-green"
             }
             ]

@@ -2,19 +2,19 @@ import { Button, Img, Icon } from '../../index';
 import PropTypes from 'prop-types';
 import './NavCarShop.scss';
 import {useState} from 'react'
-const NavCarShop = ({className}) => {
+const NavCarShop = ({className, img, product}) => {
 	const [counter, setCounter] = useState(1)
-	
+
 	const handleCounter = amount => e => {
 		e.preventDefault()
 		const newCounter = counter + amount;
 		setCounter(newCounter > 0 ? newCounter : 1)
 	}
 	return (
-		<div className={`carShop ${className}`}>
-			<div className='carShop__item'>
-				<Img className={'carShop__img'} altImg={'weOffer'} />
-				<div className='carShop__name'>Nike Air Force</div>
+		<ul className={`carShop ${className}`}>
+			<li className='carShop__item'>
+				<Img className={'carShop__img'} altImg={img} />
+				<div className='carShop__name'>{product}</div>
 				<div className='carShop__active'>
 					<p className='carShop__counter '>{counter}</p>
 					<div className='carShop__controller'>
@@ -23,16 +23,18 @@ const NavCarShop = ({className}) => {
 					</div>
 				</div>
 				<Icon className={'carShop__delete'} altIcon={'deleteIcon'}/>
-			</div>
+			</li>
 			<Button
 				to={'/pay'}
 				classNameColor={'carShop__button'}
 				buttonText={'Go Pay'}
 			/>
-		</div>
+		</ul>
 	);
 };
 NavCarShop.propTypes = {
-    className:PropTypes.string
+    className:PropTypes.string,
+	img: PropTypes.string,
+	product: PropTypes.string 
 }
 export default NavCarShop;
