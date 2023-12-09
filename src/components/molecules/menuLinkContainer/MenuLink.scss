@@ -2,9 +2,6 @@
     &__menuLinkContainer{
         padding: 0.625rem;
     }
-    &__menuLinkTextContainer{
-        @include flex(row, 0.625rem, center, center);
-    }
     &__menuLinkText{
         color: var(--text);
         &:hover{
