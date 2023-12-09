@@ -34,8 +34,8 @@ ShopWave is a project designed and coded by Edgar Mendez. Create a E-commerce wi
 <img src="/public/design/LogDesktop.png" alt="LogDesktop" width="400">
 <img src="/public/design/AboutMobile.png" alt="AboutMobile" height="400">
 <img src="/public/design/AboutDesktop.png" alt="AboutDesktop" width="400">
-<img src="/public/design/ContactMobile.png" alt="ContactMobile" height="400">
-<img src="/public/design/ContactDesktop.png" alt="ContactDesktop" width="400">
+<img src="/public/design/ContacMobile.png" alt="ContactMobile" height="400">
+<img src="/public/design/ContacDesktop.png" alt="ContactDesktop" width="400">
 
 ### Links
 
