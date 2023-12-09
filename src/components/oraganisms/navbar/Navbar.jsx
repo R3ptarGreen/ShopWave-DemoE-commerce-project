@@ -5,7 +5,8 @@ const Navbar = () => {
 	const [showMenu, setShowMenu] = useState(false);
 	const containerRef = useRef(null);
 
-	const handleMenuDisplay = () => {
+	const handleMenuDisplay = (e) => {
+		e.preventDefault()
 		setShowMenu(!showMenu);
 	};
 	const handleClickOutside = e => {
