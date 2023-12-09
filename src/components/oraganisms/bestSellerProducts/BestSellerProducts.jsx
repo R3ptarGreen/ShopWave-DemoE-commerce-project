@@ -2,7 +2,6 @@ import './BestSellerProducts.scss';
 import { CardProduct } from '../../index';
 import { useState, useEffect } from 'react';
 
-
 const BestSellerProducts = () => {
 	const [cardData, setCardData] = useState([]);
 	useEffect(() => {
@@ -18,6 +17,7 @@ const BestSellerProducts = () => {
 		};
 		fetchData();
 	}, []);
+
 	return (
 		<div className='best'>
 			<h2 className='title--l'>Best Seller Products</h2>
@@ -30,6 +30,7 @@ const BestSellerProducts = () => {
 						img={item.activeColor[0].img}
 						product={item.product}
 						activeColor={item.activeColor}
+						id={item.id}
 					/>
 					)))}
 				</div>

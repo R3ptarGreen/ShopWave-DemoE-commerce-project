@@ -1,17 +1,22 @@
 import './MenuLinkActive.scss';
-import { useState, useEffect, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { Icon, NavCarShop } from '../../index';
+import {useData} from '../../../hooks/useDataContext'
 const MenuLinkActive = () => {
 	//hooks
 	const [showSearch, setShowSearch] = useState(false);
 	const [showCar, setShowCar] = useState(false);
 	const containerRef = useRef(null);
+	const {cart} = useData()
 	//Functions List
 	const handleListClickFunctions = {
 		search: () => setShowSearch(!showSearch),
 		carShop: () => setShowCar(!showCar),
 	};
 	//events
+	useEffect(() => {
+		setShowCar(cart.length > 0)
+	},[cart])
 	const handleClick = key => e => {
 		e.preventDefault();
 		const handleFunction = handleListClickFunctions[key];
@@ -29,7 +34,6 @@ const MenuLinkActive = () => {
 			document.removeEventListener('mousedown', handleClickOutside);
 		};
 	}, []);
-
 	return (
 		<div className='navbar__menuLinkActiveContainer' ref={containerRef}>
 			<Icon altIcon={'iconUser'} iconLink={'/login'} />
@@ -39,7 +43,7 @@ const MenuLinkActive = () => {
 				type='text'
 			/>
 			<Icon altIcon={'iconShop'} onClick={handleClick('carShop')} />
-			<NavCarShop className={showCar ? '' : 'hide'}/>
+			<NavCarShop className={showCar ? '' : 'hide'}  />
 		</div>
 	);
 };
