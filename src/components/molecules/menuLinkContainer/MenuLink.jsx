@@ -1,10 +1,10 @@
 import './MenuLink.scss';
 import {Link} from 'react-router-dom'
 import PropTypes from 'prop-types'
-const MenuLink = ({className}) => {
+const MenuLink = ({classNameList, classNameContainer}) => {
   return (
-    <div className='navbar__menuLinkContainer'>
-        <ul className={className}>
+    <div className={`navbar__menuLinkContainer ${classNameContainer}`}>
+        <ul className={classNameList}>
             <li className='navbar__menuLinkText text--m'><Link to={'/'}>Home</Link></li>
             <li className='navbar__menuLinkText text--m'><Link to={'/shop'}>Shop</Link></li>
             <li className='navbar__menuLinkText text--m'><Link to={'/about'}>About</Link></li>
@@ -14,6 +14,8 @@ const MenuLink = ({className}) => {
   )
 }
 MenuLink.propTypes = {
-  className: PropTypes.string
+  classNameList: PropTypes.string,
+  classNameContainer: PropTypes.string
+
 }
 export default MenuLink

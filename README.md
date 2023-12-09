@@ -17,3 +17,6 @@ useEffect
 useState
 useRef
 clean code
+custom hooks
+useContext
+arrays and logic code

@@ -14,10 +14,10 @@
     &__desktop{
         @include flex(row, 0.625rem, center, center);
     }
-    &__mobile{
-        @include flex(column, 0.625rem, center, center);
+    &__mobileContainer{
         position: absolute;
         right: -70%;
+        top: 100%;
         background-color: var(--bg);
         padding: 1rem 2rem;
         border-radius: 1rem;
