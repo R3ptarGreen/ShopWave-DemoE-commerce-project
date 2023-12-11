@@ -12,7 +12,7 @@ const CoomingSoon = () => {
 					We are currently working hard building this page!
 				</p>
 				<Button
-					to={'/'}
+					to={'/ShopWave-DemoE-commerce-project/'}
 					classNameColor={'cooming__button'}
 					buttonText={'Go Home'}
 				/>

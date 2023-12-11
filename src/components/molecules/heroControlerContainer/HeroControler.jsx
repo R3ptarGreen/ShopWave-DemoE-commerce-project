@@ -13,7 +13,7 @@ const HeroControler = ({
 			<Button
 				classNameColor={'hero__button'}
 				buttonText={'Buy Here'}
-				to={'/shop'}
+				to={'shop'}
 			/>
 			<div className='carrouselController'>
 				{[...Array(btnCount).keys()].map(index => (

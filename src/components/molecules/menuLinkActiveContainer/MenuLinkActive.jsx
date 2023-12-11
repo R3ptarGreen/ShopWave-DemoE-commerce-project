@@ -36,7 +36,7 @@ const MenuLinkActive = () => {
 	}, []);
 	return (
 		<div className='navbar__menuLinkActiveContainer' ref={containerRef}>
-			<Icon altIcon={'iconUser'} iconLink={'/login'} />
+			<Icon altIcon={'iconUser'} iconLink={'login'} />
 			<Icon altIcon={'iconSearch'} onClick={handleClick('search')} />
 			<input
 				className={`navbar__search ${showSearch ? '' : 'hide'}`}
