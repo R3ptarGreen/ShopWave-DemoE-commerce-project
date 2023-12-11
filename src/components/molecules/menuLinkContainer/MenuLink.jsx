@@ -6,7 +6,7 @@ const MenuLink = ({ classNameList, classNameContainer }) => {
 		<div className={`navbar__menuLinkContainer ${classNameContainer}`}>
 			<ul className={classNameList}>
 				<li className='navbar__menuLinkText text--m'>
-					<Link to={'/ShopWave-DemoE-commerce-project/'}>Home</Link>
+					<Link to={'/'}>Home</Link>
 				</li>
 				<li className='navbar__menuLinkText text--m'>
 					<Link to={'shop'}>Shop</Link>
