@@ -1,13 +1,23 @@
 .navbar__menuLinkActiveContainer {
-	display: flex;
-	flex-direction: row;
-	gap: 0.625rem;
-	justify-content: center;
-	align-items: center;
-	padding: 0.625rem;
-}
+  display: flex;
+  flex-direction: row;
+  gap: 0.625rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0.625rem;
+  position: relative;
+  max-width: 20rem; }
 
 .navbar__menuLinkActiveText {
-	color: var(--text);
-	cursor: pointer;
-}
+  color: var(--text);
+  cursor: pointer; }
+  .navbar__menuLinkActiveText:hover {
+    color: var(--primary); }
+
+.navbar__search {
+  border: 2px solid var(--accent);
+  border-radius: 1rem;
+  padding: 0.25rem 0.5rem;
+  color: var(--text);
+  min-width: 2rem;
+  max-width: 5rem; }

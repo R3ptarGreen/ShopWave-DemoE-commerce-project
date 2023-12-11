@@ -1,3 +1,4 @@
+@import '../../../global/mixins/mixins.scss';
 .navbar {
 	&__menuLinkActiveContainer {
 		@include flex(row, 0.625rem, center, center);

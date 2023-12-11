@@ -1,8 +1,9 @@
-.login {
+.contact__container {
   display: flex;
   flex-direction: column;
-  gap: 0;
+  gap: 0.5rem;
   justify-content: center;
   align-items: center;
-  min-height: 80vh;
-  padding-top: 6.25rem; }
+  width: 100%;
+  padding: 0 1rem;
+  cursor: default; }

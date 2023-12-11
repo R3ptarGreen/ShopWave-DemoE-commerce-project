@@ -1,17 +1,14 @@
 a {
-	display: block;
-	text-decoration: none;
-	color: inherit;
-	font-size: inherit;
-}
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit; }
 
 p a {
-	display: inline;
-}
+  display: inline; }
 
 li {
-	list-style-type: none;
-}
+  list-style-type: none; }
 
 h1,
 h2,
@@ -28,20 +25,18 @@ i,
 b,
 u,
 em {
-	font-size: inherit;
-	font-weight: inherit;
-	font-style: inherit;
-	text-decoration: none;
-	color: inherit;
-}
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: none;
+  color: inherit; }
 
 * {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	box-sizing: border-box;
-	vertical-align: baseline;
-}
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  vertical-align: baseline; }
 
 form,
 input,
@@ -49,18 +44,16 @@ textarea,
 select,
 button,
 label {
-	font-family: inherit;
-	font-size: inherit;
-	hyphens: auto;
-	background-color: transparent;
-	color: inherit;
-	display: block;
-}
+  font-family: inherit;
+  font-size: inherit;
+  hyphens: auto;
+  background-color: transparent;
+  color: inherit;
+  display: block; }
 
 body {
-	background-color: var(--bg);
-	min-height: 100vh;
-	font-size: var(--defaultSize);
-	font-family: var(--mainType);
-	color: var(--text);
-}
+  background-color: var(--bg);
+  min-height: 100vh;
+  font-size: var(--defaultSize);
+  font-family: var(--mainType);
+  color: var(--text); }

@@ -1,3 +1,4 @@
+@import '../../../global/mixins/mixins.scss';
 .cooming {
 	&__container {
 		@include flex(column, 2rem, center, center);

@@ -1,19 +1,15 @@
 .footer {
-	display: flex;
-	flex-direction: column;
-	gap: 2rem;
-	justify-content: center;
-	align-items: center;
-}
-.footer__credit {
-	max-width: 12rem;
-	margin-bottom: 1rem;
-	cursor: default;
-}
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center; }
+  .footer__credit {
+    max-width: 12rem;
+    margin-bottom: 1rem;
+    cursor: default; }
 
 @media (min-width: 500px) {
-	.footer__credit {
-		text-align: center;
-		max-width: 25rem;
-	}
-}
+  .footer__credit {
+    text-align: center;
+    max-width: 25rem; } }

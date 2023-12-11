@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 const Img = ({ altImg, className }) => {
-	const pathImg = `public/assets/img/${altImg}.png`;
+	const pathImg = `assets/img/${altImg}.png`;
 	return (
 		<>
 			<img className={className} src={pathImg} alt={altImg} />

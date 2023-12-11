@@ -1,14 +1,13 @@
 .features__card {
-	display: flex;
-	flex-direction: row;
-	gap: 0.625rem;
-	justify-content: flex-start;
-	align-items: center;
-	width: 18.75rem;
-	height: 9.375rem;
-}
+  display: flex;
+  flex-direction: row;
+  gap: 0.625rem;
+  justify-content: flex-start;
+  align-items: center;
+  width: 18.75rem;
+  height: 9.375rem;
+  cursor: default; }
 
 .features__text {
-	color: var(--text);
-	text-align: start;
-}
+  color: var(--text);
+  text-align: start; }

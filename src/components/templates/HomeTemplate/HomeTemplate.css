@@ -1,10 +1,9 @@
 .Home__header {
-	background-image: url('/public/assets/img/bg.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}
+  background-image: url("/assets/img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 6.25rem; }
 
 .Home__section {
-	padding: 1rem;
-}
+  padding: 1rem; }

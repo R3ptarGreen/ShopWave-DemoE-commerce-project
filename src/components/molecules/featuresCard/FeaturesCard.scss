@@ -1,3 +1,4 @@
+@import '../../../global/mixins/mixins.scss';
 .features {
 	&__card {
 		@include flex(row, 0.625rem, flex-start, center);

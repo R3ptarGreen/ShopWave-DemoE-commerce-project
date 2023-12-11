@@ -1,3 +1,4 @@
+@import '../../../global/mixins/mixins.scss';
 .offer {
 	&__card {
 		@include flex(column, 1rem, center, center);

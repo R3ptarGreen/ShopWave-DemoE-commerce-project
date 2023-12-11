@@ -9,7 +9,7 @@ const Hero = () => {
 	useEffect(() => {
 		const fetchData = async () => {
 			try {
-				const res = await fetch('src/data/CarrouselData.json');
+				const res = await fetch('/src/data/CarrouselData.json');
 				const data = await res.json();
 				setSlides(data);
 			} catch (error) {

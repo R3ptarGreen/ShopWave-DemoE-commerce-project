@@ -1,3 +1,4 @@
+@import '../../../global/mixins/mixins.scss';
 .up {
 	@include flex(row, 0, center, center);
 	border-radius: 100%;

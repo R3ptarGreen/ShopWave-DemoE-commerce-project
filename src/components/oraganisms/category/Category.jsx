@@ -8,7 +8,7 @@ const Category = () => {
 	useEffect(() => {
 		const fecthData = async () => {
 			try {
-				const res = await fetch('src/data/CardDataCategory.json');
+				const res = await fetch('/src/data/CardDataCategory.json');
 				const jsonData = await res.json();
 				const data = jsonData.cardData;
 				setCardInfo(data);

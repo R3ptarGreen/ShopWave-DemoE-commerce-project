@@ -1,3 +1,4 @@
+@import '../../../global/mixins/mixins.scss';
 .footer {
 	&__brand {
 		@include flex(column, 1rem, center, center);

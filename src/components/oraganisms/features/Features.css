@@ -1,9 +1,8 @@
 .features__container {
-	display: flex;
-	flex-direction: row;
-	gap: 1rem;
-	justify-content: center;
-	align-items: center;
-	padding: 1rem;
-	flex-wrap: wrap;
-}
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  flex-wrap: wrap; }

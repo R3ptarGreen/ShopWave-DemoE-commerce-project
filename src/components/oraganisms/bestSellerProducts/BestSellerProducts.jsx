@@ -7,7 +7,7 @@ const BestSellerProducts = () => {
 	useEffect(() => {
 		const fetchData = async () => {
 			try {
-				const res = await fetch('src/data/ProductData.json');
+				const res = await fetch('/src/data/ProductData.json');
 				const jsonData = await res.json();
 				const data = jsonData.productData;
 				setCardData(data);

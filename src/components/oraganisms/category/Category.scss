@@ -1,3 +1,4 @@
+@import '../../../global/mixins/mixins.scss';
 .category {
 	&__container {
 		@include flex(row, 2rem, center, center);

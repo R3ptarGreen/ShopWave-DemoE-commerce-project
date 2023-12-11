@@ -1,3 +1,4 @@
+@import '../../../global/mixins/mixins.scss';
 .info {
 	@include flex(column, 2rem, start, center);
 	padding: 2rem 0 2rem 2rem;

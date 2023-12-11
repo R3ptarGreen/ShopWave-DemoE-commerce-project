@@ -6,17 +6,17 @@ const FooterBrand = () => {
 			<Brand />
 			<div className='footer__social'>
 				<a href=''>
-					<img src='public/assets/svg/facebookFooterIcon.svg' alt='facebook' />
+					<img src='assets/svg/facebookFooterIcon.svg' alt='facebook' />
 				</a>
 				<a href=''>
-					<img src='public/assets/svg/instaFooterIcon.svg' alt='insta' />
+					<img src='assets/svg/instaFooterIcon.svg' alt='insta' />
 				</a>
 				<a href=''>
-					<img src='public/assets/svg/twitterFooterIcon.svg' alt='twitter' />
+					<img src='assets/svg/twitterFooterIcon.svg' alt='twitter' />
 				</a>
 			</div>
 		</section>
 	);
 };
 
-export default FooterBrand;
+export default FooterBrand; 

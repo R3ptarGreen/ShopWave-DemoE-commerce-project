@@ -1,33 +1,31 @@
 .LS {
-	display: flex;
-	flex-direction: column;
-	gap: 2rem;
-	justify-content: center;
-	align-items: center;
-	padding: 1rem;
-	background-color: var(--primary);
-	width: 100%;
-	width: 20.75rem;
-	border-radius: 0 0 1rem 1rem;
-}
-.LS__title {
-	color: var(--bg);
-}
-.LS__form {
-	display: flex;
-	flex-direction: column;
-	gap: 2rem;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-}
-.LS__buttonColor {
-	background-color: var(--bg);
-	color: var(--primary);
-}
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--primary);
+  width: 100%;
+  width: 20.75rem;
+  border-radius: 0 0 1rem 1rem;
+  cursor: default; }
+  .LS__title {
+    color: var(--bg); }
+  .LS__form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+  .LS__buttonColor {
+    background-color: var(--bg);
+    color: var(--primary); }
+    .LS__buttonColor:hover {
+      background-color: var(--secondary);
+      color: var(--bg); }
 
 @media (min-width: 900px) {
-	.LS {
-		border-radius: 0 1rem 1rem 0;
-	}
-}
+  .LS {
+    border-radius: 0 1rem 1rem 0; } }
