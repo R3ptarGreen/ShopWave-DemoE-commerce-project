@@ -1,4 +1,11 @@
-import { Hero, Category, Features, Offer, BestSellerProducts, Up } from '../../index';
+import {
+	Hero,
+	Category,
+	Features,
+	Offer,
+	BestSellerProducts,
+	Up,
+} from '../../index';
 import './HomeTemplate.scss';
 const HomeTemplate = () => {
 	return (
@@ -14,30 +21,30 @@ const HomeTemplate = () => {
 					<Features />
 				</section>
 				<section>
-					<Offer 
-						  discount={'15% OFF'}
-						  discountColor={'primary'}
-						  title={"Only For You"}
-						  subtitle={"This Black Friday"}
-						  save={"15% in Running"}
-						  textColor={"text"}
-						  bgColor={"bgSecondary"}
-						  img={"offerOne"}
+					<Offer
+						discount={'15% OFF'}
+						discountColor={'primary'}
+						title={'Only For You'}
+						subtitle={'This Black Friday'}
+						save={'15% in Running'}
+						textColor={'text'}
+						bgColor={'bgSecondary'}
+						img={'offerOne'}
 					/>
 				</section>
 				<section>
-					<BestSellerProducts/>
+					<BestSellerProducts />
 				</section>
 				<section>
 					<Offer
-						 discount= {"35% OFF"}
-						 discountColor= {"secondary"}
-						 title= {"Happy Hours!"}
-						 subtitle= {"In the next 3 hours"}
-						 save= {"35% in Classics"}
-						 textColor={"bg"}
-						 bgColor={"bgAccent"}
-						 img={"offerTwo"}
+						discount={'35% OFF'}
+						discountColor={'secondary'}
+						title={'Happy Hours!'}
+						subtitle={'In the next 3 hours'}
+						save={'35% in Classics'}
+						textColor={'bg'}
+						bgColor={'bgAccent'}
+						img={'offerTwo'}
 					/>
 				</section>
 			</main>

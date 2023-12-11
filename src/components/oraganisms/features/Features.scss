@@ -1,7 +1,7 @@
-.features{
-    &__container{
-        @include flex(row, 1rem, center, center);
-        padding: 1rem;
-        flex-wrap: wrap;
-    }
+.features {
+	&__container {
+		@include flex(row, 1rem, center, center);
+		padding: 1rem;
+		flex-wrap: wrap;
+	}
 }

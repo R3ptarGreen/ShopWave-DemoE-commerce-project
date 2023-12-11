@@ -1,12 +1,15 @@
 .navbar__menuLinkContainer {
-  padding: 0.625rem; }
+	padding: 0.625rem;
+}
 
 .navbar__menuLinkTextContainer {
-  display: flex;
-  flex-direction: row;
-  gap: 0.625rem;
-  justify-content: center;
-  align-items: center; }
+	display: flex;
+	flex-direction: row;
+	gap: 0.625rem;
+	justify-content: center;
+	align-items: center;
+}
 
 .navbar__menuLinkText {
-  color: var(--text); }
+	color: var(--text);
+}

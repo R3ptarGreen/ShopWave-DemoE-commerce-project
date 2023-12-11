@@ -1,13 +1,13 @@
-.contact{
-    @include flex(row, 0, center, center);
-    min-height: 90vh;
-    padding-top: 6.25rem;
-    &__rectangle{
-        width: 100%;
-        min-width: 1rem;
-        max-width: 15.5rem;
-        min-height: 90vh;
-        height: 100%;
-        background-color: var(--secondary);
-    }
+.contact {
+	@include flex(row, 0, center, center);
+	min-height: 90vh;
+	padding-top: 6.25rem;
+	&__rectangle {
+		width: 100%;
+		min-width: 1rem;
+		max-width: 15.5rem;
+		min-height: 90vh;
+		height: 100%;
+		background-color: var(--secondary);
+	}
 }

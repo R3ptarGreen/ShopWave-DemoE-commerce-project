@@ -1,29 +1,29 @@
-.LS{
-    @include flex(column, 2rem, center, center);
-    padding: 1rem;
-    background-color: var(--primary);
-    width: 100%;
-    width: 20.75rem;
-    border-radius: 0 0 1rem 1rem;
-    cursor: default;
-    &__title{
-        color: var(--bg);
-    }
-    &__form{
-        @include flex(column, 2rem, center, center);
-        width: 100%;
-    }
-    &__buttonColor{
-        background-color: var(--bg);
-        color: var(--primary);
-        &:hover{
-            background-color: var(--secondary);
-            color: var(--bg);
-        }
-    }
+.LS {
+	@include flex(column, 2rem, center, center);
+	padding: 1rem;
+	background-color: var(--primary);
+	width: 100%;
+	width: 20.75rem;
+	border-radius: 0 0 1rem 1rem;
+	cursor: default;
+	&__title {
+		color: var(--bg);
+	}
+	&__form {
+		@include flex(column, 2rem, center, center);
+		width: 100%;
+	}
+	&__buttonColor {
+		background-color: var(--bg);
+		color: var(--primary);
+		&:hover {
+			background-color: var(--secondary);
+			color: var(--bg);
+		}
+	}
 }
 @media (min-width: 900px) {
-    .LS{
-        border-radius: 0 1rem 1rem 0;
-    }
+	.LS {
+		border-radius: 0 1rem 1rem 0;
+	}
 }

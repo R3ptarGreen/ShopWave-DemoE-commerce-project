@@ -1,20 +1,20 @@
 [
-    {
-        "id":"1",
-        "product":"Nike City Classic Premium",
-        "brand": "Nike",
-        "imgUrl": "heroImg"
-    },
-    {
-        "id":"2",
-        "product":"TERREX AX4 MID GORE-TEX",
-        "brand": "Adidas",
-        "imgUrl": "heroImg2" 
-    },
-    {
-        "id":"2",
-        "product":"RS-Trck Outdoor",
-        "brand": "Puma",
-        "imgUrl": "heroImg3" 
-    }
+	{
+		"id": "1",
+		"product": "Nike City Classic Premium",
+		"brand": "Nike",
+		"imgUrl": "heroImg"
+	},
+	{
+		"id": "2",
+		"product": "TERREX AX4 MID GORE-TEX",
+		"brand": "Adidas",
+		"imgUrl": "heroImg2"
+	},
+	{
+		"id": "2",
+		"product": "RS-Trck Outdoor",
+		"brand": "Puma",
+		"imgUrl": "heroImg3"
+	}
 ]

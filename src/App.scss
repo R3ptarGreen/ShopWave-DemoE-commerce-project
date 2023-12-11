@@ -1,14 +1,14 @@
 @import './global/reset/reset.scss';
 @import './global/variables/variables.scss';
 
-.title--xl{
+.title--xl {
 	font-family: var(--secondaryType);
 	font-size: 3rem;
 	font-style: normal;
 	line-height: 1.5rem; /* 50% */
 	letter-spacing: 0.0125rem;
 }
-.title--l{
+.title--l {
 	font-family: var(--secondaryType);
 	font-size: 2rem;
 	font-style: normal;
@@ -16,7 +16,7 @@
 	line-height: 1.5rem; /* 75% */
 	letter-spacing: 0.0125rem;
 }
-.title--m{
+.title--m {
 	font-family: var(--secondaryType);
 	text-align: center;
 	font-weight: 700;
@@ -24,7 +24,7 @@
 	line-height: 1.5rem; /* 150% */
 	letter-spacing: 0.0125rem;
 }
-.text--m{
+.text--m {
 	font-family: var(--mainType);
 	text-align: center;
 	font-weight: 700;
@@ -32,9 +32,9 @@
 	letter-spacing: 0.0125rem;
 }
 
-.hide{
+.hide {
 	display: none;
 }
-.show{
+.show {
 	display: flex;
 }

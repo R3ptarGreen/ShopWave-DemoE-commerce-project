@@ -24,6 +24,7 @@ ShopWave is a project to test myself with react, implementing everything I know 
 ## Overview
 
 ### The Challenge
+
 ShopWave is a project designed and coded by Edgar Mendez. Create a E-commerce with a shopping cart with multiple async bugs that I was unaware of.
 
 ### Screenshot
@@ -65,7 +66,7 @@ We welcome contributions to this project! If you'd like to contribute, please fo
 - Flexbox
 - Semantic HTML5 markup
 - .JSON and DevDependencies
-- Custom Hooks :  I need more practice
+- Custom Hooks : I need more practice
 - Atomic Design Workflow
 - Designed in Figma
 

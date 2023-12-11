@@ -1,27 +1,27 @@
-.info{
-    @include flex(column, 2rem, start, center);
-    padding: 2rem 0 2rem 2rem;
-    background-color: var(--primary);
-    border-radius: 1rem;
-    width: 100%;
-    min-width: 20rem;
-    max-width: 25rem;
-    max-height: 25rem;
-    &__text{
-        color: var(--bg);
-        cursor: default;
-    }
-    &__container{
-        @include flex(column, 2rem, start, center);
-        width: 100%;
-    }
-    &__content{
-        @include flex(row, 0.25rem, start, center);
-    }
+.info {
+	@include flex(column, 2rem, start, center);
+	padding: 2rem 0 2rem 2rem;
+	background-color: var(--primary);
+	border-radius: 1rem;
+	width: 100%;
+	min-width: 20rem;
+	max-width: 25rem;
+	max-height: 25rem;
+	&__text {
+		color: var(--bg);
+		cursor: default;
+	}
+	&__container {
+		@include flex(column, 2rem, start, center);
+		width: 100%;
+	}
+	&__content {
+		@include flex(row, 0.25rem, start, center);
+	}
 }
 @media (min-width: 890px) {
-    .info{
-        position: absolute;
-        right: 0;
-    }
+	.info {
+		position: absolute;
+		right: 0;
+	}
 }

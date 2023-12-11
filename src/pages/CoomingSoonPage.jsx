@@ -1,10 +1,10 @@
-import {CoomingSoonTemplate} from '../components/index'
+import { CoomingSoonTemplate } from '../components/index';
 const CoomingSoonPage = () => {
-  return (
-    <>
-      <CoomingSoonTemplate/>
-    </>
-  )
-}
+	return (
+		<>
+			<CoomingSoonTemplate />
+		</>
+	);
+};
 
-export default CoomingSoonPage
+export default CoomingSoonPage;

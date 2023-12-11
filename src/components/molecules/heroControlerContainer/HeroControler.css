@@ -1,36 +1,41 @@
 .hero__controllerContainer {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  justify-content: center;
-  align-items: center;
-  width: 13.9rem; }
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	justify-content: center;
+	align-items: center;
+	width: 13.9rem;
+}
 
 .hero__productName {
-  color: var(--text);
-  text-align: center;
-  font-family: Oswald;
-  font-size: 2rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.5rem;
-  /* 75% */
-  letter-spacing: 0.0125rem; }
+	color: var(--text);
+	text-align: center;
+	font-family: Oswald;
+	font-size: 2rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 1.5rem;
+	/* 75% */
+	letter-spacing: 0.0125rem;
+}
 
 .hero__button {
-  border: 1px solid var(--primary);
-  color: var(--primary); }
+	border: 1px solid var(--primary);
+	color: var(--primary);
+}
 
 .carrouselController {
-  display: flex;
-  flex-direction: row;
-  gap: 0.625rem;
-  justify-content: center;
-  align-items: center; }
+	display: flex;
+	flex-direction: row;
+	gap: 0.625rem;
+	justify-content: center;
+	align-items: center;
+}
 
 .controller {
-  width: 3.125rem;
-  height: 0.625rem;
-  background-color: var(--text);
-  border-radius: 1rem;
-  cursor: pointer; }
+	width: 3.125rem;
+	height: 0.625rem;
+	background-color: var(--text);
+	border-radius: 1rem;
+	cursor: pointer;
+}

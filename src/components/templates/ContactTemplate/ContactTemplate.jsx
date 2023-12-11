@@ -7,7 +7,7 @@ const ContactTemplate = () => {
 				<Contact />
 				<div className='contact__rectangle'></div>
 			</main>
-      <Up/>
+			<Up />
 		</>
 	);
 };

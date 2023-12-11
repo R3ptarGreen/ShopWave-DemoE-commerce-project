@@ -1,11 +1,11 @@
-import {CoomingSoon} from '../../index';
-import './CoomingSoonTemplate.scss'
+import { CoomingSoon } from '../../index';
+import './CoomingSoonTemplate.scss';
 const CoomingSoonTemplate = () => {
-  return (
-    <main className='cooming'>
-        <CoomingSoon/>
-    </main>
-  )
-}
+	return (
+		<main className='cooming'>
+			<CoomingSoon />
+		</main>
+	);
+};
 
-export default CoomingSoonTemplate
+export default CoomingSoonTemplate;

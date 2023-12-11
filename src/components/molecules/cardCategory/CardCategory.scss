@@ -1,35 +1,35 @@
-.card{
-    width: 100%;
-    min-width: 21rem;
-    max-width: 28.25rem;
-    max-height: 30.5rem;
-    border-radius: 1rem;
-    overflow: hidden;
-    cursor: default;
-    &__imgContainer{
-        @include flex(row, 0, center, center);
-        background-color: var(--accent);
-        width: 100%;
-        min-width: 21rem;
-        max-width: 28.25rem;
-        max-height: 18.5rem;
-    }   
-    &__img{
-        width: 100%;
-        max-width: 28.25rem;
-        max-height: 18.5rem    
-    }
-    &__info{
-        @include flex(column, 1rem, flex-start, center);
-        padding: 2rem;
-        background-color: var(--primary);   
-    }
-    &__btn{
-        background-color: var(--bg);
-        color: var(--primary);
-        &:hover{
-            background-color: var(--secondary);
-            color: var(--bg);
-        }
-    }
+.card {
+	width: 100%;
+	min-width: 21rem;
+	max-width: 28.25rem;
+	max-height: 30.5rem;
+	border-radius: 1rem;
+	overflow: hidden;
+	cursor: default;
+	&__imgContainer {
+		@include flex(row, 0, center, center);
+		background-color: var(--accent);
+		width: 100%;
+		min-width: 21rem;
+		max-width: 28.25rem;
+		max-height: 18.5rem;
+	}
+	&__img {
+		width: 100%;
+		max-width: 28.25rem;
+		max-height: 18.5rem;
+	}
+	&__info {
+		@include flex(column, 1rem, flex-start, center);
+		padding: 2rem;
+		background-color: var(--primary);
+	}
+	&__btn {
+		background-color: var(--bg);
+		color: var(--primary);
+		&:hover {
+			background-color: var(--secondary);
+			color: var(--bg);
+		}
+	}
 }

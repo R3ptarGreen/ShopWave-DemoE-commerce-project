@@ -9,9 +9,9 @@ const Up = () => {
 
 	const handleUp = () => {
 		document.querySelector('.main').scrollIntoView({
-			behavior: 'smooth'
-		})
-	}
+			behavior: 'smooth',
+		});
+	};
 
 	useEffect(() => {
 		const handleScroll = () => {
@@ -29,13 +29,17 @@ const Up = () => {
 
 	return (
 		<>
-			<div to='#main' className={`up ${showUp ? '' : 'hide'}`} onClick={handleUp}>
+			<div
+				to='#main'
+				className={`up ${showUp ? '' : 'hide'}`}
+				onClick={handleUp}
+			>
 				<Icon className={'up__icon'} altIcon={'upIcon'} />
 			</div>
 		</>
 	);
 };
 Up.propTypes = {
-	handleUp: PropTypes.func
-}
+	handleUp: PropTypes.func,
+};
 export default Up;

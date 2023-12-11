@@ -7,9 +7,9 @@ const OfferCard = ({
 	offerSubtitle,
 	offerTitle,
 	altImg,
-    bgColor,
-    textColor,
-    discountColor
+	bgColor,
+	textColor,
+	discountColor,
 }) => {
 	return (
 		<div className={`offer__card ${bgColor} ${textColor}`}>
@@ -23,7 +23,11 @@ const OfferCard = ({
 			<div className='offer__infoContainer'>
 				<h2 className='title--l'>{offerSubtitle}</h2>
 				<p className='text--m'>Save up to {offerSave}</p>
-                <Button classNameColor={'offer__button'} buttonText={'Buy Here'} to={'/shop'}/>
+				<Button
+					classNameColor={'offer__button'}
+					buttonText={'Buy Here'}
+					to={'/shop'}
+				/>
 			</div>
 		</div>
 	);
@@ -34,9 +38,9 @@ OfferCard.propTypes = {
 	offerSubtitle: PropTypes.string,
 	offerTitle: PropTypes.string,
 	altImg: PropTypes.string,
-    bgColor: PropTypes.string,
-    discountColor: PropTypes.string,
-    textColor: PropTypes.string
+	bgColor: PropTypes.string,
+	discountColor: PropTypes.string,
+	textColor: PropTypes.string,
 };
 
 export default OfferCard;

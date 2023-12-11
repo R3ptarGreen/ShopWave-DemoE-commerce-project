@@ -1,10 +1,10 @@
-import {LoginTemplate} from '../components/index'
+import { LoginTemplate } from '../components/index';
 const LogIn_SignUpPage = () => {
-  return (
-    <>
-    <LoginTemplate/>
-    </>
-  )
-}
+	return (
+		<>
+			<LoginTemplate />
+		</>
+	);
+};
 
-export default LogIn_SignUpPage
+export default LogIn_SignUpPage;

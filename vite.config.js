@@ -5,10 +5,10 @@ import react from '@vitejs/plugin-react-swc';
 export default defineConfig({
 	plugins: [react()],
 	css: {
-		preprocessorOptions:{
-			scss:{
-				additionalData: `@import 'src/global/mixins/mixins.scss';`
-			}
-		}
-	}
+		preprocessorOptions: {
+			scss: {
+				additionalData: `@import 'src/global/mixins/mixins.scss';`,
+			},
+		},
+	},
 });

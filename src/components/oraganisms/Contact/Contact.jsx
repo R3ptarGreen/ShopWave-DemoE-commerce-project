@@ -3,8 +3,8 @@ import { ContactForm, ContactInfo } from '../../index';
 const Contact = () => {
 	return (
 		<div className='contact__container'>
-				<ContactForm />
-				<ContactInfo />
+			<ContactForm />
+			<ContactInfo />
 		</div>
 	);
 };

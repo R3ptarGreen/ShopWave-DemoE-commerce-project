@@ -1,11 +1,13 @@
 .navbar__menuLinkActiveContainer {
-  display: flex;
-  flex-direction: row;
-  gap: 0.625rem;
-  justify-content: center;
-  align-items: center;
-  padding: 0.625rem; }
+	display: flex;
+	flex-direction: row;
+	gap: 0.625rem;
+	justify-content: center;
+	align-items: center;
+	padding: 0.625rem;
+}
 
 .navbar__menuLinkActiveText {
-  color: var(--text);
-  cursor: pointer; }
+	color: var(--text);
+	cursor: pointer;
+}

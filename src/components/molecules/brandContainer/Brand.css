@@ -1,13 +1,15 @@
 .navbar__brandContaienr {
-  display: flex;
-  flex-direction: row;
-  gap: 0.625rem;
-  justify-content: center;
-  align-items: center;
-  padding: 0.625rem 0rem;
-  max-width: 25rem;
-  width: 100%;
-  cursor: pointer; }
+	display: flex;
+	flex-direction: row;
+	gap: 0.625rem;
+	justify-content: center;
+	align-items: center;
+	padding: 0.625rem 0rem;
+	max-width: 25rem;
+	width: 100%;
+	cursor: pointer;
+}
 
 .navbar__brandText {
-  color: var(--text); }
+	color: var(--text);
+}

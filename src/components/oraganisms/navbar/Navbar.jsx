@@ -5,8 +5,8 @@ const Navbar = () => {
 	const [showMenu, setShowMenu] = useState(false);
 	const containerRef = useRef(null);
 
-	const handleMenuDisplay = (e) => {
-		e.preventDefault()
+	const handleMenuDisplay = e => {
+		e.preventDefault();
 		setShowMenu(!showMenu);
 	};
 	const handleClickOutside = e => {
@@ -30,8 +30,11 @@ const Navbar = () => {
 				<MenuLinkActive />
 				<div className='container--mobile' ref={containerRef}>
 					<Icon altIcon={'iconMenu'} onClick={handleMenuDisplay} />
-					<div className={showMenu ? '' : 'hide'}> 
-					<MenuLink classNameContainer={'navbar__mobileContainer'} classNameList={`navbar__mobile`} />
+					<div className={showMenu ? '' : 'hide'}>
+						<MenuLink
+							classNameContainer={'navbar__mobileContainer'}
+							classNameList={`navbar__mobile`}
+						/>
 					</div>
 				</div>
 			</div>

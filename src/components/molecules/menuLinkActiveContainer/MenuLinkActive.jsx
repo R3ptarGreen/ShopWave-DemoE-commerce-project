@@ -1,13 +1,13 @@
 import './MenuLinkActive.scss';
 import { useState, useRef, useEffect } from 'react';
 import { Icon, NavCarShop } from '../../index';
-import {useData} from '../../../hooks/useDataContext'
+import { useData } from '../../../hooks/useDataContext';
 const MenuLinkActive = () => {
 	//hooks
 	const [showSearch, setShowSearch] = useState(false);
 	const [showCar, setShowCar] = useState(false);
 	const containerRef = useRef(null);
-	const {cart} = useData()
+	const { cart } = useData();
 	//Functions List
 	const handleListClickFunctions = {
 		search: () => setShowSearch(!showSearch),
@@ -15,8 +15,8 @@ const MenuLinkActive = () => {
 	};
 	//events
 	useEffect(() => {
-		setShowCar(cart.length > 0)
-	},[cart])
+		setShowCar(cart.length > 0);
+	}, [cart]);
 	const handleClick = key => e => {
 		e.preventDefault();
 		const handleFunction = handleListClickFunctions[key];
@@ -43,7 +43,7 @@ const MenuLinkActive = () => {
 				type='text'
 			/>
 			<Icon altIcon={'iconShop'} onClick={handleClick('carShop')} />
-			<NavCarShop className={showCar ? '' : 'hide'}  />
+			<NavCarShop className={showCar ? '' : 'hide'} />
 		</div>
 	);
 };

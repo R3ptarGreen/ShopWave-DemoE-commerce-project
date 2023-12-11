@@ -21,10 +21,10 @@ const BestSellerProducts = () => {
 	return (
 		<div className='best'>
 			<h2 className='title--l'>Best Seller Products</h2>
-				<div className='best__container'>
-			{cardData.map(((item, index) => (
+			<div className='best__container'>
+				{cardData.map((item, index) => (
 					<CardProduct
-						key={index} 
+						key={index}
 						brand={item.brand}
 						price={item.price}
 						img={item.activeColor[0].img}
@@ -32,8 +32,8 @@ const BestSellerProducts = () => {
 						activeColor={item.activeColor}
 						id={item.id}
 					/>
-					)))}
-				</div>
+				))}
+			</div>
 		</div>
 	);
 };

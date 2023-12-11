@@ -1,72 +1,101 @@
 a {
-  display: block;
-  text-decoration: none;
-  color: inherit;
-  font-size: inherit; }
+	display: block;
+	text-decoration: none;
+	color: inherit;
+	font-size: inherit;
+}
 
 p a {
-  display: inline; }
+	display: inline;
+}
 
 li {
-  list-style-type: none; }
+	list-style-type: none;
+}
 
-h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, b, u, em {
-  font-size: inherit;
-  font-weight: inherit;
-  font-style: inherit;
-  text-decoration: none;
-  color: inherit; }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+strong,
+blockquote,
+i,
+b,
+u,
+em {
+	font-size: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	text-decoration: none;
+	color: inherit;
+}
 
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-  vertical-align: baseline; }
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	vertical-align: baseline;
+}
 
-form, input, textarea, select, button, label {
-  font-family: inherit;
-  font-size: inherit;
-  hyphens: auto;
-  background-color: transparent;
-  color: inherit;
-  display: block; }
+form,
+input,
+textarea,
+select,
+button,
+label {
+	font-family: inherit;
+	font-size: inherit;
+	hyphens: auto;
+	background-color: transparent;
+	color: inherit;
+	display: block;
+}
 
 body {
-  background-color: var(--bg);
-  min-height: 100vh;
-  font-size: var(--defaultSize);
-  font-family: var(--mainType);
-  color: var(--text); }
+	background-color: var(--bg);
+	min-height: 100vh;
+	font-size: var(--defaultSize);
+	font-family: var(--mainType);
+	color: var(--text);
+}
 
 /* Define here the Custom properties */
 :root {
-  /*Main*/
-  --bg: #131615;
-  --primary: #EDC63B;
-  --secondary: #CB7F15;
-  /*Complement*/
-  --text: #FEFBEC;
-  --accent: #FAF4CB;
-  /*Neutral*/
-  --blackTheme: #222222;
-  --whiteTheme: #ececec;
-  --shadowMain: #c9c9c9;
-  --shadowSec: #ffffff;
-  --blackborder: #00000050;
-  /* Tipography*/
-  --mainType: 'Raleway';
-  --secondaryType: 'Oswald';
-  --defaultSize: 1rem; }
+	/*Main*/
+	--bg: #131615;
+	--primary: #edc63b;
+	--secondary: #cb7f15;
+	/*Complement*/
+	--text: #fefbec;
+	--accent: #faf4cb;
+	/*Neutral*/
+	--blackTheme: #222222;
+	--whiteTheme: #ececec;
+	--shadowMain: #c9c9c9;
+	--shadowSec: #ffffff;
+	--blackborder: #00000050;
+	/* Tipography*/
+	--mainType: 'Raleway';
+	--secondaryType: 'Oswald';
+	--defaultSize: 1rem;
+}
 
 @font-face {
-  font-family: 'Oswald';
-  src: url("/public/assets/fonts/Oswald/Oswald-Bold.ttf") format("truetype");
-  font-weight: 700; }
+	font-family: 'Oswald';
+	src: url('/public/assets/fonts/Oswald/Oswald-Bold.ttf') format('truetype');
+	font-weight: 700;
+}
 
 @font-face {
-  font-family: 'Raleway';
-  src: url("/public/assets/fonts/Raleway/Raleway-Bold.ttf") format("truetype"); }
+	font-family: 'Raleway';
+	src: url('/public/assets/fonts/Raleway/Raleway-Bold.ttf') format('truetype');
+}
 
 /*Dark theme
 @media (prefers-color-scheme: dark) {
@@ -81,41 +110,47 @@ body {
 };
 */
 .title--xl {
-  font-family: var(--secondaryType);
-  font-size: 3rem;
-  font-style: normal;
-  line-height: 1.5rem;
-  /* 50% */
-  letter-spacing: 0.0125rem; }
+	font-family: var(--secondaryType);
+	font-size: 3rem;
+	font-style: normal;
+	line-height: 1.5rem;
+	/* 50% */
+	letter-spacing: 0.0125rem;
+}
 
 .title--l {
-  font-family: var(--secondaryType);
-  font-size: 2rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.5rem;
-  /* 75% */
-  letter-spacing: 0.0125rem; }
+	font-family: var(--secondaryType);
+	font-size: 2rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 1.5rem;
+	/* 75% */
+	letter-spacing: 0.0125rem;
+}
 
 .title--m {
-  font-family: var(--secondaryType);
-  text-align: center;
-  font-weight: 700;
-  font-style: normal;
-  line-height: 1.5rem;
-  /* 150% */
-  letter-spacing: 0.0125rem; }
+	font-family: var(--secondaryType);
+	text-align: center;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 1.5rem;
+	/* 150% */
+	letter-spacing: 0.0125rem;
+}
 
 .text--m {
-  font-family: var(--mainType);
-  text-align: center;
-  font-weight: 700;
-  line-height: 1.5rem;
-  /* 150% */
-  letter-spacing: 0.0125rem; }
+	font-family: var(--mainType);
+	text-align: center;
+	font-weight: 700;
+	line-height: 1.5rem;
+	/* 150% */
+	letter-spacing: 0.0125rem;
+}
 
 .hide {
-  display: none; }
+	display: none;
+}
 
 .show {
-  display: flex; }
+	display: flex;
+}

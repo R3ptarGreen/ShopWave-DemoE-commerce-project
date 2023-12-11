@@ -1,11 +1,11 @@
-import {HomeTemplate} from "../components/index"
+import { HomeTemplate } from '../components/index';
 
 const HomePage = () => {
-  return (
-    <>
-        <HomeTemplate/>
-    </>
-  )
-}
+	return (
+		<>
+			<HomeTemplate />
+		</>
+	);
+};
 
-export default HomePage
+export default HomePage;

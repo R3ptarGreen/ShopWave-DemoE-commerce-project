@@ -1,8 +1,8 @@
-.contact{
-   &__container{
-    @include flex(column, 0.5rem, center, center);
-    width: 100%;
-    padding: 0 1rem;
-    cursor: default;
-   }
+.contact {
+	&__container {
+		@include flex(column, 0.5rem, center, center);
+		width: 100%;
+		padding: 0 1rem;
+		cursor: default;
+	}
 }

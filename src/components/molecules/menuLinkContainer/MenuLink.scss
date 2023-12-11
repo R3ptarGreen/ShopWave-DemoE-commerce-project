@@ -1,11 +1,11 @@
-.navbar{
-    &__menuLinkContainer{
-        padding: 0.625rem;
-    }
-    &__menuLinkText{
-        color: var(--text);
-        &:hover{
-            color: var(--primary);
-        }
-    }
+.navbar {
+	&__menuLinkContainer {
+		padding: 0.625rem;
+	}
+	&__menuLinkText {
+		color: var(--text);
+		&:hover {
+			color: var(--primary);
+		}
+	}
 }

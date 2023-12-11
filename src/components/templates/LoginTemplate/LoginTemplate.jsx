@@ -1,5 +1,5 @@
 import './LoginTemplate.scss';
-import {Login} from '../../index';
+import { Login } from '../../index';
 const LoginTemplate = () => {
 	return (
 		<>

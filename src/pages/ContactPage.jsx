@@ -1,10 +1,10 @@
-import {ContactTemplate} from '../components/index'
+import { ContactTemplate } from '../components/index';
 const ContactPage = () => {
-  return (
-    <>
-        <ContactTemplate/>
-    </>
-  )
-}
+	return (
+		<>
+			<ContactTemplate />
+		</>
+	);
+};
 
-export default ContactPage
+export default ContactPage;
