@@ -20,7 +20,6 @@ export { default as NavCarShop } from './molecules/navCarShop/NavCarShop';
 export { default as OfferCard } from './molecules/offerCard/OfferCard';
 export { default as BestSellerProducts } from './oraganisms/bestSellerProducts/BestSellerProducts';
 export { default as Category } from './oraganisms/category/Category';
-export { default as Contact } from './oraganisms/contact/Contact';
 export { default as CoomingSoon } from './oraganisms/coomingSoon/CoomingSoon';
 export { default as Features } from './oraganisms/features/Features';
 export { default as Footer } from './oraganisms/footer/Footer';

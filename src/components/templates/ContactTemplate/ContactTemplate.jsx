@@ -1,5 +1,6 @@
 import './ContactTemplate.scss';
-import { Contact, Up } from '../../index';
+import Contact from '../../oraganisms/contact/Contact'
+import { Up } from '../../index';
 const ContactTemplate = () => {
 	return (
 		<>
