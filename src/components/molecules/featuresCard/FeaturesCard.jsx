@@ -1,14 +1,13 @@
 import './FeaturesCard.scss';
 import { Icon } from '../../index';
 import { useState, useEffect } from 'react';
-
 const FeaturesCard = () => {
 	const [featuresData, setFeaturesData] = useState([]);
 
 	useEffect(() => {
 		const fetchData = async () => {
 			try {
-				const res = await fetch('/src/data/FeaturesData.json');
+				const res = await fetch('src/data/FeaturesData.json');
 				const jsonData = await res.json();
 				const data = jsonData.featuresData;
 				setFeaturesData(data);

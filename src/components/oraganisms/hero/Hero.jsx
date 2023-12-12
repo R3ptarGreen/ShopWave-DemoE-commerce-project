@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { BrandCollection, HeroControler, Img } from '../../index';
 import './Hero.scss';
-
 const Hero = () => {
 	const [slides, setSlides] = useState([]);
 	const [currentSlide, setCurrentSlide] = useState(0);
@@ -9,7 +8,7 @@ const Hero = () => {
 	useEffect(() => {
 		const fetchData = async () => {
 			try {
-				const res = await fetch('/src/data/CarrouselData.json');
+				const res = await fetch('src/data/CarrouselData.json');
 				const data = await res.json();
 				setSlides(data);
 			} catch (error) {
