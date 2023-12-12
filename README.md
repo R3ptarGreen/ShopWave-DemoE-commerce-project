@@ -40,7 +40,7 @@ ShopWave is a project designed and coded by Edgar Mendez. Create a E-commerce wi
 
 ### Links
 
-- Live Site URL: [Check out the live site here](https://glistening-salamander-8843f6.netlify.app/)
+- Live Site URL: [ShopWave Demo](https://incomparable-maamoul-d8af1b.netlify.app/)
 
 ### Contribution
 
