@@ -12,7 +12,6 @@ export { default as ContactForm } from './molecules/contactForm/ContactForm';
 export { default as ContactInfo } from './molecules/contactInfo/ContactInfo';
 export { default as FeaturesCard } from './molecules/featuresCard/FeaturesCard';
 export { default as FooterBrand } from './molecules/footerBrand/FooterBrand';
-export { default as FooterContent } from './molecules/footerContent/FooterContent';
 export { default as HeroControler } from './molecules/heroControlerContainer/HeroControler';
 export { default as LoginContainer } from './molecules/loginContainer/LoginContainer';
 export { default as MenuLinkActive } from './molecules/menuLinkActiveContainer/MenuLinkActive';

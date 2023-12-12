@@ -1,5 +1,6 @@
 import './Footer.scss';
-import { FooterBrand, FooterContent } from '../../index';
+import { FooterBrand} from '../../index';
+import FooterContent from '../../molecules/footerContent/FooterContent'
 const Footer = () => {
 	return (
 		<footer className='footer'>
