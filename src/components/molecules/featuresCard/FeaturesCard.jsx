@@ -1,25 +1,11 @@
 import './FeaturesCard.scss';
 import { Icon } from '../../index';
-import { useState, useEffect } from 'react';
+import FeaturesData from '../../../data/FeaturesData.json'
 const FeaturesCard = () => {
-	const [featuresData, setFeaturesData] = useState([]);
-
-	useEffect(() => {
-		const fetchData = async () => {
-			try {
-				const res = await fetch('src/data/FeaturesData.json');
-				const jsonData = await res.json();
-				const data = jsonData.featuresData;
-				setFeaturesData(data);
-			} catch (error) {
-				console.error('Error to connect data', error);
-			}
-		};
-		fetchData();
-	}, []);
+	
 	return (
 		<>
-			{featuresData.map(feature => (
+			{FeaturesData.map(feature => (
 				<div className='features__card' key={feature.alt}>
 					<Icon altIcon={feature.alt} />
 					<div>

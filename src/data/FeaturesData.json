@@ -1,5 +1,4 @@
-{
-	"featuresData": [
+[
 		{
 			"alt": "carIcon",
 			"title": "Free Shipping",
@@ -20,5 +19,5 @@
 			"title": "Secure Payment",
 			"description": "All Cards Accepted"
 		}
-	]
-}
+	
+]

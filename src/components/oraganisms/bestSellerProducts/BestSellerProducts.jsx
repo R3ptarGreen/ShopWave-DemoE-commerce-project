@@ -1,27 +1,14 @@
 import './BestSellerProducts.scss';
 import { CardProduct } from '../../index';
-import { useState, useEffect } from 'react';
+import productData from '../../../data/ProductData.json'
 const BestSellerProducts = () => {
-	const [cardData, setCardData] = useState([]);
-	useEffect(() => {
-		const fetchData = async () => {
-			try {
-				const res = await fetch('src/data/ProductData.json');
-				const jsonData = await res.json();
-				const data = jsonData.productData;
-				setCardData(data);
-			} catch (error) {
-				console.error('Error Fetching Data', error);
-			}
-		};
-		fetchData();
-	}, []);
+
 
 	return (
 		<div className='best'>
 			<h2 className='title--l'>Best Seller Products</h2>
 			<div className='best__container'>
-				{cardData.map((item, index) => (
+				{productData.map((item, index) => (
 					<CardProduct
 						key={index}
 						brand={item.brand}

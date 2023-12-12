@@ -1,6 +1,6 @@
 import './ContactTemplate.scss';
 import Contact from '../../oraganisms/contact/Contact'
-import { Up } from '../../index';
+import Up from '../../atoms/up/Up'
 const ContactTemplate = () => {
 	return (
 		<>
@@ -9,6 +9,7 @@ const ContactTemplate = () => {
 				<div className='contact__rectangle'></div>
 			</main>
 			<Up />
+			
 		</>
 	);
 };
