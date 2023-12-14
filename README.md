@@ -7,7 +7,7 @@
 ShopWave is a project to test myself with react, implementing everything I know about the framework, using external resources to learn
 
 ## Table of Contents
-
+ 
 - [Overview](#overview)
   - [The Challenge](#the-challenge)
   - [Screenshot](#screenshot)
